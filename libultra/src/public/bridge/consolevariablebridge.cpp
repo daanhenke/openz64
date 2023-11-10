@@ -1,4 +1,4 @@
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 #include "Context.h"
 
 std::shared_ptr<LUS::CVar> CVarGet(const char* name) {

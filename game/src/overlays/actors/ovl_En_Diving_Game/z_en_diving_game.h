@@ -1,7 +1,7 @@
 #ifndef Z_EN_DIVING_GAME_H
 #define Z_EN_DIVING_GAME_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnDivingGame;

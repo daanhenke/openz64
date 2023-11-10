@@ -4,7 +4,7 @@
  * Description: Debug Scene Select Menu
  */
 
-#include <libultraship/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "vt.h"
 

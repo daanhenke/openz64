@@ -1,7 +1,7 @@
 #ifndef Z_BG_MIZU_SHUTTER_H
 #define Z_BG_MIZU_SHUTTER_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 #define BGMIZUSHUTTER_PARAM(size, timer, switchFlag) (size << 0xC) | (timer << 0x6) | switchFlag

@@ -1,7 +1,7 @@
 #ifndef Z_EN_PEEHAT_H
 #define Z_EN_PEEHAT_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 typedef enum {

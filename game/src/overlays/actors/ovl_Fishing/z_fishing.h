@@ -1,7 +1,7 @@
 #ifndef Z_FISHING_H
 #define Z_FISHING_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct Fishing;

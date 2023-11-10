@@ -1,7 +1,7 @@
 #ifndef Z_EN_HEISHI1_H
 #define Z_EN_HEISHI1_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnHeishi1;

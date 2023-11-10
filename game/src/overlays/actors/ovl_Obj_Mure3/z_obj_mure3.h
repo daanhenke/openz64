@@ -1,7 +1,7 @@
 #ifndef Z_OBJ_MURE3_H
 #define Z_OBJ_MURE3_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct ObjMure3;

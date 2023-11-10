@@ -41,12 +41,12 @@
 // #include <SDL2/SDL_opengles2.h>
 #endif
 
-#include "gfx_cc.h"
-#include "gfx_rendering_api.h"
+#include "graphic/Fast3D/gfx_cc.h"
+#include "graphic/Fast3D/gfx_rendering_api.h"
 #include "window/gui/Gui.h"
 #include "window/Window.h"
-#include "gfx_pc.h"
-#include <public/bridge/consolevariablebridge.h>
+#include "graphic/Fast3D/gfx_pc.h"
+#include <libultra/bridge/consolevariablebridge.h>
 
 using namespace std;
 

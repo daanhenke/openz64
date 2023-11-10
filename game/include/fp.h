@@ -1,6 +1,6 @@
 #ifndef FP_H
 #define FP_H
-#include <libultra/libultra.h>
+#include <libultra.h>
 
 extern f32 qNaN0x3FFFFF;
 extern f32 qNaN0x10000;

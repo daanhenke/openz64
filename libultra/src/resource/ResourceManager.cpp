@@ -1,11 +1,11 @@
-#include "ResourceManager.h"
+#include "resource/ResourceManager.h"
 #include <spdlog/spdlog.h>
-#include "File.h"
-#include "Archive.h"
+#include "resource/File.h"
+#include "resource/Archive.h"
 #include <algorithm>
 #include <thread>
 #include <Utils/StringHelper.h>
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 #include "Context.h"
 
 // Comes from stormlib. May not be the most efficient, but it's also important to be consistent.

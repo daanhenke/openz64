@@ -1,6 +1,6 @@
-#include "ConsoleWindow.h"
+#include "window/gui/ConsoleWindow.h"
 
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 #include "Context.h"
 #include <Utils/StringHelper.h>
 #include "utils/Utils.h"

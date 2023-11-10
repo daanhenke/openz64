@@ -1,7 +1,7 @@
 #ifndef Z_EN_OKUTA_H
 #define Z_EN_OKUTA_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnOkuta;

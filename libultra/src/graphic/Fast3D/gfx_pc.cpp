@@ -24,13 +24,13 @@
 #include <string>
 #include <iostream>
 
-#include "gfx_pc.h"
-#include "gfx_cc.h"
-#include "gfx_window_manager_api.h"
-#include "gfx_rendering_api.h"
-#include "gfx_screen_config.h"
+#include "graphic/Fast3D/gfx_pc.h"
+#include "graphic/Fast3D/gfx_cc.h"
+#include "graphic/Fast3D/gfx_window_manager_api.h"
+#include "graphic/Fast3D/gfx_rendering_api.h"
+#include "graphic/Fast3D/gfx_screen_config.h"
 
-#include "log/luslog.h"
+#include "libultra/luslog.h"
 #include "window/gui/Gui.h"
 #include "resource/GameVersions.h"
 #include "resource/Resource.h"

@@ -1,7 +1,7 @@
 #ifndef Z_EN_PARTNER_H
 #define Z_EN_PARTNER_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include <overlays/actors/ovl_En_Boom/z_en_boom.h>
 

@@ -1,4 +1,4 @@
-#include "MemoryStream.h"
+#include "utils/binarytools/MemoryStream.h"
 #include <cstring>
 
 #ifndef _MSC_VER

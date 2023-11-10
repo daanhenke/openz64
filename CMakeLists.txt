@@ -12,6 +12,8 @@ list(APPEND CMAKE_MODULE_PATH "${OZ64_CMAKE_PATH}/utilities")
 
 if(CMAKE_SYSTEM_NAME STREQUAL "Windows")
     set(OZ64_TARGET_PLATFORM "windows")
+elseif(CMAKE_SYSTEM_NAME STREQUAL "Linux")
+    set(OZ64_TARGET_PLATFORM "linux")
 endif()
 
 include("${OZ64_CMAKE_PATH}/platform/${OZ64_TARGET_PLATFORM}.cmake")

@@ -1,7 +1,7 @@
 #ifndef Z_EN_TRAP_H
 #define Z_EN_TRAP_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 // Different movement modes (set in params):

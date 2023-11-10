@@ -1,7 +1,7 @@
 #ifndef Z_EN_PU_BOX_H
 #define Z_EN_PU_BOX_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnPubox;

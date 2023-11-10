@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT16_BOMBSTONE_H
 #define Z_BG_SPOT16_BOMBSTONE_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot16Bombstone;

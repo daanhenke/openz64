@@ -1,7 +1,7 @@
 #ifndef Z_BG_HIDAN_SIMA_H
 #define Z_BG_HIDAN_SIMA_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgHidanSima;

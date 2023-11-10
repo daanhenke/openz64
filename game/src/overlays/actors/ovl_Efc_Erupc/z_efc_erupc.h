@@ -1,7 +1,7 @@
 #ifndef Z_EFC_ERUPC_H
 #define Z_EFC_ERUPC_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EfcErupc;

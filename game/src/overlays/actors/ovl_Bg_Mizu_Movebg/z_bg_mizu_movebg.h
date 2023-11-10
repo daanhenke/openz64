@@ -1,7 +1,7 @@
 #ifndef Z_BG_MIZU_MOVEBG_H
 #define Z_BG_MIZU_MOVEBG_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgMizuMovebg;

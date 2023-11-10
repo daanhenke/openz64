@@ -1,7 +1,7 @@
-#include "Controller.h"
+#include "controller/Controller.h"
 #include <memory>
 #include <algorithm>
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 #if __APPLE__
 #include <SDL_events.h>
 #else

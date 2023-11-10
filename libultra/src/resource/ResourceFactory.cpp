@@ -1,4 +1,4 @@
-#include "ResourceFactory.h"
+#include "resource/ResourceFactory.h"
 
 namespace LUS {
 void ResourceVersionFactory::ParseFileBinary(std::shared_ptr<BinaryReader> reader,

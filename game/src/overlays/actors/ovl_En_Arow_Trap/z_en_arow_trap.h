@@ -1,7 +1,7 @@
 #ifndef Z_EN_AROW_TRAP_H
 #define Z_EN_AROW_TRAP_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "z64.h"
 

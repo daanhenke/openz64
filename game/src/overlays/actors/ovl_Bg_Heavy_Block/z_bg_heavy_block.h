@@ -1,7 +1,7 @@
 #ifndef Z_BG_HEAVY_BLOCK_H
 #define Z_BG_HEAVY_BLOCK_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgHeavyBlock;

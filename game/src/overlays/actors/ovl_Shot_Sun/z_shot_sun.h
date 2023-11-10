@@ -1,7 +1,7 @@
 #ifndef Z_SHOT_SUN_H
 #define Z_SHOT_SUN_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct ShotSun;

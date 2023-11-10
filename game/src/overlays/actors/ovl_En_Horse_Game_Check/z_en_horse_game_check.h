@@ -1,7 +1,7 @@
 #ifndef Z_EN_HORSE_GAME_CHECK_H
 #define Z_EN_HORSE_GAME_CHECK_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnHorseGameCheckBase;

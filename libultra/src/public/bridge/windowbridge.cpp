@@ -1,4 +1,4 @@
-#include "public/bridge/windowbridge.h"
+#include "libultra/bridge/windowbridge.h"
 #include "window/Window.h"
 #include "Context.h"
 

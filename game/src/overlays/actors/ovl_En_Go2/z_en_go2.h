@@ -1,7 +1,7 @@
 #ifndef Z_EN_GO2_H
 #define Z_EN_GO2_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "overlays/actors/ovl_En_Go/z_en_go.h"
 

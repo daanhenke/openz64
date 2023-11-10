@@ -1,4 +1,4 @@
-#include "SDLAudioPlayer.h"
+#include "audio/SDLAudioPlayer.h"
 #include <spdlog/spdlog.h>
 
 namespace LUS {

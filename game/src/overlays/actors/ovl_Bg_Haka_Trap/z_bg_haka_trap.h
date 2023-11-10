@@ -1,7 +1,7 @@
 #ifndef Z_BG_HAKA_TRAP_H
 #define Z_BG_HAKA_TRAP_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 typedef enum {

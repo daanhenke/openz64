@@ -1,5 +1,5 @@
-#include "BinaryReader.h"
-#include "MemoryStream.h"
+#include "utils/binarytools/BinaryReader.h"
+#include "utils/binarytools/MemoryStream.h"
 #include <cmath>
 #include <stdexcept>
 

@@ -1,7 +1,7 @@
 #ifndef Z_EN_ANUBICE_TAG_H
 #define Z_EN_ANUBICE_TAG_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "overlays/actors/ovl_En_Anubice/z_en_anubice.h"
 

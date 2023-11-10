@@ -13,7 +13,7 @@
 #include "soh/Enhancements/enhancementTypes.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 
-#include <libultraship/libultraship.h>
+#include <libultraship.h>
 
 #include <time.h>
 #include <assert.h>

@@ -2,18 +2,18 @@
 
 #include <string.h>
 
-#include "textures/title_static/title_static.h"
-#include "textures/parameter_static/parameter_static.h"
-#include <textures/icon_item_static/icon_item_static.h>
-#include <textures/icon_item_24_static/icon_item_24_static.h>
-#include <textures/icon_item_dungeon_static/icon_item_dungeon_static.h>
-#include <textures/parameter_static/parameter_static.h>
-#include "textures/message_static/message_static.h"
+#include "assets/textures/title_static/title_static.h"
+#include "assets/textures/parameter_static/parameter_static.h"
+#include <assets/textures/icon_item_static/icon_item_static.h>
+#include <assets/textures/icon_item_24_static/icon_item_24_static.h>
+#include <assets/textures/icon_item_dungeon_static/icon_item_dungeon_static.h>
+#include <assets/textures/parameter_static/parameter_static.h>
+#include "assets/textures/message_static/message_static.h"
 #include "soh/frame_interpolation.h"
-#include <GameVersions.h>
-#include "objects/object_mag/object_mag.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "soh_assets.h"
+#include <resource/GameVersions.h>
+#include "assets/objects/object_mag/object_mag.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/soh_assets.h"
 #include "soh/Enhancements/game-interactor/GameInteractor.h"
 #include "soh/Enhancements/boss-rush/BossRush.h"
 #include "soh/Enhancements/custom-message/CustomMessageTypes.h"

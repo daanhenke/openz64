@@ -1,7 +1,7 @@
 #ifndef Z_MAGIC_FIRE_H
 #define Z_MAGIC_FIRE_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct MagicFire;

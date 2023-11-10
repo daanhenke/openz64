@@ -1,7 +1,7 @@
 #ifndef Z_BG_DODOAGO_H
 #define Z_BG_DODOAGO_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 typedef enum {

@@ -1,6 +1,6 @@
 #include <stdlib.h>
 
-#include <libultraship/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 #include "soh/Enhancements/audio/AudioEditor.h"

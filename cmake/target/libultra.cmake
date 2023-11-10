@@ -14,6 +14,7 @@ set(LIBULTRA_SOURCES
     config/ConsoleVariable.cpp
 
     controller/ControlDeck.cpp
+    controller/Controller.cpp
     controller/DummyController.cpp
     controller/KeyboardController.cpp
     controller/SDLController.cpp
@@ -76,6 +77,8 @@ set(LIBULTRA_SOURCES
     window/gui/GuiWindow.cpp
     window/gui/GuiElement.cpp
     window/gui/GuiMenuBar.cpp
+
+    ${LIBULTRA_PLATFORM_SOURCES}
 )
 
 list(TRANSFORM LIBULTRA_SOURCES PREPEND "libultra/src/")
@@ -86,7 +89,7 @@ target_include_directories(libultra
     PUBLIC "libultra/include"
 )
 target_link_libraries(libultra
-    PRIVATE StrHash64
+    PRIVATE StrHash64 ${LIBULTRA_PLATFORM_LIBRARIES}
     PUBLIC ZAPDUtils ImGui storm tinyxml2 nlohmann_json::nlohmann_json spdlog ThreadPool stb
 )
 target_compile_definitions(libultra PRIVATE

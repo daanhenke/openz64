@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT00_HANEBASI_H
 #define Z_BG_SPOT00_HANEBASI_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot00Hanebasi;

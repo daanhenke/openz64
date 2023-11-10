@@ -1,7 +1,7 @@
 #ifndef Z_EN_SI_H
 #define Z_EN_SI_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnSi;

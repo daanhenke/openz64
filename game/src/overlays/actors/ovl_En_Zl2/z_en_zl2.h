@@ -1,7 +1,7 @@
 #ifndef Z_EN_ZL2_H
 #define Z_EN_ZL2_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnZl2;

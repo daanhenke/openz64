@@ -1,4 +1,4 @@
-#include "crashhandlerbridge.h"
+#include "libultra/bridge/crashhandlerbridge.h"
 #include "Context.h"
 
 void CrashHandlerRegisterCallback(CrashHandlerCallback callback) {

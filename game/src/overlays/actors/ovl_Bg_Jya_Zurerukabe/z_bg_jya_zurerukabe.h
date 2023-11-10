@@ -1,7 +1,7 @@
 #ifndef Z_BG_JYA_ZURERUKABE_H
 #define Z_BG_JYA_ZURERUKABE_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgJyaZurerukabe;

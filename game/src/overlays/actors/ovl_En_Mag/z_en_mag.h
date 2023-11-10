@@ -1,7 +1,7 @@
 #ifndef Z_EN_MAG_H
 #define Z_EN_MAG_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "align_asset_macro.h"
 

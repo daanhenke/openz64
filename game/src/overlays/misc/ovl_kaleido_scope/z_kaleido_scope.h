@@ -1,7 +1,7 @@
 #ifndef Z_KALEIDO_SCOPE_H
 #define Z_KALEIDO_SCOPE_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 extern u8 gAmmoItems[];

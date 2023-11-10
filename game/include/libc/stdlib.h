@@ -1,7 +1,7 @@
 #ifndef STDLIB_H
 #define STDLIB_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 
 #if 0
 

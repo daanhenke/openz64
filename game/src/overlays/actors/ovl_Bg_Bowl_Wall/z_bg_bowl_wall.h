@@ -1,7 +1,7 @@
 #ifndef Z_BG_BOWL_WALL_H
 #define Z_BG_BOWL_WALL_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "overlays/actors/ovl_En_Bom_Bowl_Man/z_en_bom_bowl_man.h"
 

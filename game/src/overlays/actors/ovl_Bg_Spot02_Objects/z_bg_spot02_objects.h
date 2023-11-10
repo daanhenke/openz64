@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT02_OBJECTS_H
 #define Z_BG_SPOT02_OBJECTS_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot02Objects;

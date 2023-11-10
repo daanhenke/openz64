@@ -1,6 +1,6 @@
 #define NOMINMAX
 
-#include "SDLController.h"
+#include "controller/SDLController.h"
 
 #include <spdlog/spdlog.h>
 #include <Utils/StringHelper.h>

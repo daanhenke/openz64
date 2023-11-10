@@ -1,7 +1,7 @@
 #ifndef Z_BG_MORI_RAKKATENJO_H
 #define Z_BG_MORI_RAKKATENJO_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgMoriRakkatenjo;

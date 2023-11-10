@@ -1,10 +1,10 @@
-#include "InputEditorWindow.h"
+#include "window/gui/InputEditorWindow.h"
 #include "controller/Controller.h"
 #include "controller/KeyboardController.h"
 #include "Context.h"
-#include "Gui.h"
+#include "window/gui/Gui.h"
 #include <Utils/StringHelper.h>
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 
 namespace LUS {
 

@@ -1,7 +1,7 @@
 #ifndef Z_OCEFF_SPOT_H
 #define Z_OCEFF_SPOT_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct OceffSpot;

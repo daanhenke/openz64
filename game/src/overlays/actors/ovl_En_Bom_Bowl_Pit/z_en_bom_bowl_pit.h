@@ -1,7 +1,7 @@
 #ifndef Z_EN_BOM_BOWL_PIT_H
 #define Z_EN_BOM_BOWL_PIT_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "overlays/actors/ovl_En_Ex_Item/z_en_ex_item.h"
 

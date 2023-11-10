@@ -1,7 +1,7 @@
 #ifndef Z_EN_ANUBICE_H
 #define Z_EN_ANUBICE_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "overlays/actors/ovl_Bg_Hidan_Curtain/z_bg_hidan_curtain.h"
 

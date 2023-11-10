@@ -1,7 +1,7 @@
 #ifndef Z_EFF_SS_EXTRA_H
 #define Z_EFF_SS_EXTRA_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 typedef struct {

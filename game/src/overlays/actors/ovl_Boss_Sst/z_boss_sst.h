@@ -1,7 +1,7 @@
 #ifndef Z_BOSS_SST_H
 #define Z_BOSS_SST_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BossSst;

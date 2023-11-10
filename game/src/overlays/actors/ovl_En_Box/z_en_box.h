@@ -1,7 +1,7 @@
 #ifndef Z_EN_BOX_H
 #define Z_EN_BOX_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 #define ENBOX_TREASURE_FLAG_UNK_MIN 20

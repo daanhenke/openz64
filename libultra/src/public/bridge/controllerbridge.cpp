@@ -1,4 +1,4 @@
-#include "public/bridge/controllerbridge.h"
+#include "libultra/bridge/controllerbridge.h"
 #include "Context.h"
 
 extern "C" {

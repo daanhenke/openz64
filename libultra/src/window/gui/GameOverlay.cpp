@@ -1,6 +1,6 @@
-#include "GameOverlay.h"
+#include "window/gui/GameOverlay.h"
 
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 #include "resource/File.h"
 #include "resource/Archive.h"
 #include "resource/ResourceManager.h"

@@ -1,7 +1,7 @@
 #ifndef Z_EN_WONDER_TALK2_H
 #define Z_EN_WONDER_TALK2_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnWonderTalk2;

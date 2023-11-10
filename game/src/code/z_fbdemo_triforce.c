@@ -1,7 +1,7 @@
 #include "global.h"
 #include <string.h>
 
-#include "code/fbdemo_triforce/z_fbdemo_triforce.h"
+#include "assets/code/fbdemo_triforce/z_fbdemo_triforce.h"
 
 void TransitionTriforce_Start(void* thisx) {
     TransitionTriforce* this = (TransitionTriforce*)thisx;

@@ -1,7 +1,7 @@
 #ifndef Z_BG_PO_EVENT_H
 #define Z_BG_PO_EVENT_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgPoEvent;

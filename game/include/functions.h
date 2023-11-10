@@ -10,7 +10,7 @@ extern "C"
 {
 #endif
 
-#include "luslog.h"
+#include "libultra/luslog.h"
 #include <soh/Enhancements/item-tables/ItemTableTypes.h>
 #include <soh/Enhancements/randomizer/randomizer_inf.h>
 

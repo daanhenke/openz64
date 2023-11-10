@@ -1,7 +1,7 @@
 #ifndef Z_EN_INSECT_H
 #define Z_EN_INSECT_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "overlays/actors/ovl_Obj_Makekinsuta/z_obj_makekinsuta.h"
 

@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT01_FUSYA_H
 #define Z_BG_SPOT01_FUSYA_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot01Fusya;

@@ -1,8 +1,8 @@
 #include "global.h"
-#include <libultraship/libultra.h>
+#include <libultra.h>
 #include "vt.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/gameplay_field_keep/gameplay_field_keep.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/gameplay_field_keep/gameplay_field_keep.h"
 #include "soh/frame_interpolation.h"
 
 typedef enum {

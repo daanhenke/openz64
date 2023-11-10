@@ -1,7 +1,7 @@
 #ifndef Z_MAGIC_WIND_H
 #define Z_MAGIC_WIND_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct MagicWind;

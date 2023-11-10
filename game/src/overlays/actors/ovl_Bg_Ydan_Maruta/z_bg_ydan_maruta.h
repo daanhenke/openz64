@@ -1,7 +1,7 @@
 #ifndef Z_BG_YDAN_MARUTA_H
 #define Z_BG_YDAN_MARUTA_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgYdanMaruta;

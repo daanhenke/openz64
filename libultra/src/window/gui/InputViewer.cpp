@@ -1,6 +1,6 @@
-#include "InputViewer.h"
+#include "window/gui/InputViewer.h"
 
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 #include "libultra/controller.h"
 #include "Context.h"
 #include <imgui.h>

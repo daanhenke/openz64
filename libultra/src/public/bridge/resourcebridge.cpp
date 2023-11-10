@@ -1,4 +1,4 @@
-#include "public/bridge/resourcebridge.h"
+#include "libultra/bridge/resourcebridge.h"
 #include "Context.h"
 #include <string>
 #include <algorithm>

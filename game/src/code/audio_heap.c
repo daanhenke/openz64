@@ -1,4 +1,4 @@
-#include <libultraship/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 void AudioHeap_InitSampleCaches(u32 persistentSize, u32 temporarySize);

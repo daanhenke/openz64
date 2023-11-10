@@ -1,7 +1,7 @@
 #ifndef Z_BG_JYA_IRONOBJ_H
 #define Z_BG_JYA_IRONOBJ_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgJyaIronobj;

@@ -1,6 +1,6 @@
 #define NOMINMAX
 
-#include "Gui.h"
+#include "window/gui/Gui.h"
 
 #include <cstring>
 #include <utility>
@@ -9,7 +9,7 @@
 
 #include "config/Config.h"
 #include "Context.h"
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 #include "resource/type/Texture.h"
 #include "graphic/Fast3D/gfx_pc.h"
 #include "resource/File.h"

@@ -1,7 +1,7 @@
 #ifndef Z_BG_JYA_GOROIWA_H
 #define Z_BG_JYA_GOROIWA_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgJyaGoroiwa;

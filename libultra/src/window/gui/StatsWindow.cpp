@@ -1,6 +1,6 @@
-#include "StatsWindow.h"
+#include "window/gui/StatsWindow.h"
 #include "imgui.h"
-#include "public/bridge/consolevariablebridge.h"
+#include "libultra/bridge/consolevariablebridge.h"
 #include "spdlog/spdlog.h"
 
 namespace LUS {

@@ -1,7 +1,7 @@
 #ifndef Z_DEMO_DU_H
 #define Z_DEMO_DU_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct DemoDu;

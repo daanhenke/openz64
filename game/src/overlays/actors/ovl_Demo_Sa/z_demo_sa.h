@@ -1,7 +1,7 @@
 #ifndef Z_DEMO_SA_H
 #define Z_DEMO_SA_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct DemoSa;

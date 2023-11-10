@@ -1,7 +1,7 @@
 #ifndef Z64LIGHT_H
 #define Z64LIGHT_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include <libultra/gbi.h>
 #include "z64math.h"
 #include <libultra/color.h>

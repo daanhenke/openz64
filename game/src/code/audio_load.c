@@ -2,7 +2,7 @@
 #include <string.h>
 #include <assert.h>
 
-#include <libultraship/libultra.h>
+#include <libultra.h>
 #include "global.h"
 #include "soh/OTRGlobals.h"
 #include "soh/Enhancements/audio/AudioCollection.h"

@@ -8,10 +8,10 @@
 
 #include "global.h"
 #include "alloca.h"
-#include "textures/nintendo_rogo_static/nintendo_rogo_static.h"
+#include "assets/textures/nintendo_rogo_static/nintendo_rogo_static.h"
 #include "assets/objects/gameplay_keep/gameplay_keep.h"
 #include <soh/Enhancements/bootcommands.h>
-#include <GameVersions.h>
+#include <resource/GameVersions.h>
 #include <soh/SaveManager.h>
 
 #include "time.h"

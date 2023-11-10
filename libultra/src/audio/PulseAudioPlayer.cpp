@@ -1,6 +1,6 @@
 #if defined(__linux__) || defined(__BSD__)
 
-#include "PulseAudioPlayer.h"
+#include "audio/PulseAudioPlayer.h"
 #include "Context.h"
 #include <spdlog/spdlog.h>
 

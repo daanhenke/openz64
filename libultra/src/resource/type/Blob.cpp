@@ -1,4 +1,4 @@
-#include "Blob.h"
+#include "resource/type/Blob.h"
 
 namespace LUS {
 Blob::Blob() : Resource(std::shared_ptr<ResourceInitData>()) {

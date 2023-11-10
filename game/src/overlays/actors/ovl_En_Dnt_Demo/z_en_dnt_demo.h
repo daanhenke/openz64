@@ -1,7 +1,7 @@
 #ifndef Z_EN_DNT_DEMO_H
 #define Z_EN_DNT_DEMO_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct EnDntDemo;

@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT11_OASIS_H
 #define Z_BG_SPOT11_OASIS_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot11Oasis;

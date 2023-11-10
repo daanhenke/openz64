@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT07_TAKI_H
 #define Z_BG_SPOT07_TAKI_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot07Taki;

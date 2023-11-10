@@ -1,7 +1,7 @@
 #ifndef Z64CAMERA_H
 #define Z64CAMERA_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "z64cutscene.h"
 
 #define CAM_STAT_CUT        0

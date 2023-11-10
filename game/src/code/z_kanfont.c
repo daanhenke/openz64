@@ -3,8 +3,8 @@
 #include <string.h>
 
 #include "message_data_static.h"
-#include "textures/nes_font_static/nes_font_static.h"
-#include "textures/message_static/message_static.h"
+#include "assets/textures/nes_font_static/nes_font_static.h"
+#include "assets/textures/message_static/message_static.h"
 
 static const char* fntTbl[] =
 {

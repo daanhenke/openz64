@@ -1,7 +1,7 @@
 #ifndef Z_ELF_MSG2_H
 #define Z_ELF_MSG2_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct ElfMsg2;

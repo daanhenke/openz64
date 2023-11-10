@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT16_DOUGHNUT_H
 #define Z_BG_SPOT16_DOUGHNUT_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot16Doughnut;

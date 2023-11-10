@@ -1,7 +1,7 @@
 #ifndef Z64TRANSITION_H
 #define Z64TRANSITION_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include <libultra/color.h>
 
 typedef struct {

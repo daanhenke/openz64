@@ -1,5 +1,5 @@
-#include "BinaryWriter.h"
-#include "MemoryStream.h"
+#include "utils/binarytools/BinaryWriter.h"
+#include "utils/binarytools/MemoryStream.h"
 
 LUS::BinaryWriter::BinaryWriter() {
     mStream = std::make_shared<MemoryStream>();

@@ -1,7 +1,7 @@
 #ifndef Z_BOSS_MO_H
 #define Z_BOSS_MO_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BossMo;

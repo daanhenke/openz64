@@ -1,7 +1,7 @@
 #include "global.h"
 #include <string.h>
 
-#include "code/fbdemo_wipe1/z_fbdemo_wipe1.h"
+#include "assets/code/fbdemo_wipe1/z_fbdemo_wipe1.h"
 
 Gfx sWipeDList[] = {
     gsDPPipeSync(),

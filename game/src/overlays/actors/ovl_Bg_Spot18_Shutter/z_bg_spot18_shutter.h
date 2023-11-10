@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT18_SHUTTER_H
 #define Z_BG_SPOT18_SHUTTER_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot18Shutter;

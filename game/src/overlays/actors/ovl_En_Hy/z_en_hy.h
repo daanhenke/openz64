@@ -1,7 +1,7 @@
 #ifndef Z_EN_HY_H
 #define Z_EN_HY_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 typedef enum {

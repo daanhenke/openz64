@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "textures/item_name_static/item_name_static.h"
-#include "textures/icon_item_static/icon_item_static.h"
-#include "textures/icon_item_24_static/icon_item_24_static.h"
-#include "textures/icon_item_nes_static/icon_item_nes_static.h"
-#include "textures/icon_item_ger_static/icon_item_ger_static.h"
-#include "textures/icon_item_fra_static/icon_item_fra_static.h"
-#include "textures/icon_item_gameover_static/icon_item_gameover_static.h"
-#include "textures/icon_item_gameover_static/icon_item_gameover_static.h"
-#include "textures/map_name_static/map_name_static.h"
-#include "textures/map_48x85_static/map_48x85_static.h"
+#include "assets/textures/item_name_static/item_name_static.h"
+#include "assets/textures/icon_item_static/icon_item_static.h"
+#include "assets/textures/icon_item_24_static/icon_item_24_static.h"
+#include "assets/textures/icon_item_nes_static/icon_item_nes_static.h"
+#include "assets/textures/icon_item_ger_static/icon_item_ger_static.h"
+#include "assets/textures/icon_item_fra_static/icon_item_fra_static.h"
+#include "assets/textures/icon_item_gameover_static/icon_item_gameover_static.h"
+#include "assets/textures/icon_item_gameover_static/icon_item_gameover_static.h"
+#include "assets/textures/map_name_static/map_name_static.h"
+#include "assets/textures/map_48x85_static/map_48x85_static.h"
 #include "vt.h"
 
 #include "soh/frame_interpolation.h"

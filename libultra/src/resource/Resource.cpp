@@ -1,4 +1,4 @@
-#include "Resource.h"
+#include "resource/Resource.h"
 #include <spdlog/spdlog.h>
 #include "libultra/gbi.h"
 

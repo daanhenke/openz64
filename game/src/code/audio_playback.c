@@ -1,5 +1,5 @@
 #include "global.h"
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 
 extern bool gUseLegacySD;
 

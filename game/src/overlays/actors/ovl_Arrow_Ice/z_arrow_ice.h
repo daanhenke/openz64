@@ -1,7 +1,7 @@
 #ifndef Z_ARROW_ICE_H
 #define Z_ARROW_ICE_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct ArrowIce;

@@ -1,7 +1,7 @@
 #ifndef Z_BG_SPOT17_FUNEN_H
 #define Z_BG_SPOT17_FUNEN_H
 
-#include <libultra/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 struct BgSpot17Funen;

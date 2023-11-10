@@ -1,4 +1,4 @@
-#include "Array.h"
+#include "resource/type/Array.h"
 
 namespace LUS {
 Array::Array() : Resource(std::shared_ptr<ResourceInitData>()) {
