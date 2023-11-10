@@ -1,0 +1,17 @@
+.vscode/
+.vs/
+.idea/
+cmake-build-**
+
+out/
+x64
+
+*.z64
+*.n64
+*.v64
+*.otr
+
+*.sav
+shipofharkinian.ini
+shipofharkinian.json
+imgui.ini

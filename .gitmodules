@@ -1,0 +1,15 @@
+[submodule "ZAPDTR"]
+	path = external/ZAPDTR
+	url = https://github.com/harbourmasters/ZAPDTR
+[submodule "OTRExporter"]
+	path = external/OTRExporter
+	url = https://github.com/harbourmasters/OTRExporter
+[submodule "external/vcpkg"]
+	path = external/vcpkg
+	url = https://github.com/Microsoft/vcpkg.git
+[submodule "external/OTRExporter"]
+	path = external/OTRExporter
+	url = https://github.com/harbourmasters/OTRExporter
+[submodule "external/ZAPDTR"]
+	path = external/ZAPDTR
+	url = https://github.com/harbourmasters/ZAPDTR

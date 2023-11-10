@@ -1,0 +1,35 @@
+{
+    "version": 4,
+    "configurePresets": [
+        {
+            "name": "base",
+            "binaryDir": "${sourceDir}/out/build/${presetName}",
+            "hidden": true,
+            "cacheVariables": {
+              "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}"
+            }
+        },
+        {
+          "name": "windows",
+          "inherits": "base",
+          "displayName": "Windows x64 Debug",
+          "architecture": {
+            "value": "x64",
+            "strategy": "external"
+          },
+          "cacheVariables": {
+            "CMAKE_BUILD_TYPE": "Debug",
+            "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/external/vcpkg/scripts/buildsystems/vcpkg.cmake"
+          }
+      },
+      {
+        "name": "linux",
+        "inherits": "base",
+        "displayName": "Linux Debug",
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Debug",
+          "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/external/vcpkg/scripts/buildsystems/vcpkg.cmake"
+        }
+    }
+    ]
+}
