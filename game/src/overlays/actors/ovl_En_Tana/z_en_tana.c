@@ -5,7 +5,7 @@
  */
 
 #include "z_en_tana.h"
-#include "objects/object_shop_dungen/object_shop_dungen.h"
+#include "assets/objects/object_shop_dungen/object_shop_dungen.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY)
 

@@ -1,8 +1,8 @@
 #include "actorViewer.h"
 #include "../../util.h"
 #include "../../UIWidgets.hpp"
-#include "ResourceManager.h"
-#include "DisplayList.h"
+#include "resource/ResourceManager.h"
+#include "resource/type/DisplayList.h"
 #include "../../OTRGlobals.h"
 
 #include <array>

@@ -1,7 +1,7 @@
 #include "z_en_syateki_man.h"
 #include "vt.h"
 #include "overlays/actors/ovl_En_Syateki_Itm/z_en_syateki_itm.h"
-#include "objects/object_ossan/object_ossan.h"
+#include "assets/objects/object_ossan/object_ossan.h"
 #include "soh/Enhancements/randomizer/randomizer_entrance.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY | ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_NO_LOCKON)

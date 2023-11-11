@@ -4,11 +4,11 @@
 #include "soh/Enhancements/game-interactor/GameInteractor.h"
 
 #include <string>
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <random>
 #include <math.h>
 #include <algorithm>
-#include <libultraship/libultra/types.h>
+#include <libultra/types.h>
 #include "soh/Enhancements/randomizer/3drando/random.hpp"
 #include <libultraship.h>
 
@@ -18,35 +18,35 @@ extern "C" {
 #include <z64.h>
 #include "macros.h"
 extern PlayState* gPlayState;
-#include "objects/object_link_boy/object_link_boy.h"
-#include "objects/object_link_child/object_link_child.h"
-#include "objects/object_gi_shield_3/object_gi_shield_3.h"
-#include "objects/object_gi_heart/object_gi_heart.h"
-#include "objects/object_gi_bow/object_gi_bow.h"
-#include "objects/object_gi_bracelet/object_gi_bracelet.h"
-#include "objects/object_gi_rupy/object_gi_rupy.h"
-#include "objects/object_gi_magicpot/object_gi_magicpot.h"
-#include "objects/object_gi_gloves/object_gi_gloves.h"
-#include "objects/object_gi_hammer/object_gi_hammer.h"
-#include "objects/object_gi_sutaru/object_gi_sutaru.h"
-#include "objects/object_st/object_st.h"
-#include "objects/object_gi_boomerang/object_gi_boomerang.h"
-#include "objects/object_gi_liquid/object_gi_liquid.h"
-#include "objects/object_gi_bow/object_gi_bow.h"
-#include "objects/object_gi_hearts/object_gi_hearts.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/object_gi_sword_1/object_gi_sword_1.h"
-#include "objects/object_gi_longsword/object_gi_longsword.h"
-#include "objects/object_gi_clothes/object_gi_clothes.h"
-#include "objects/object_gi_bomb_2/object_gi_bomb_2.h"
-#include "objects/object_gla/object_gla.h"
-#include "objects/object_toki_objects/object_toki_objects.h"
-#include "objects/object_gi_pachinko/object_gi_pachinko.h"
-#include "objects/object_trap/object_trap.h"
-#include "overlays/ovl_Boss_Ganon2/ovl_Boss_Ganon2.h"
-#include "objects/object_gjyo_objects/object_gjyo_objects.h"
-#include "textures/nintendo_rogo_static/nintendo_rogo_static.h"
-#include "objects/object_gi_rabit_mask/object_gi_rabit_mask.h"
+#include "assets/objects/object_link_boy/object_link_boy.h"
+#include "assets/objects/object_link_child/object_link_child.h"
+#include "assets/objects/object_gi_shield_3/object_gi_shield_3.h"
+#include "assets/objects/object_gi_heart/object_gi_heart.h"
+#include "assets/objects/object_gi_bow/object_gi_bow.h"
+#include "assets/objects/object_gi_bracelet/object_gi_bracelet.h"
+#include "assets/objects/object_gi_rupy/object_gi_rupy.h"
+#include "assets/objects/object_gi_magicpot/object_gi_magicpot.h"
+#include "assets/objects/object_gi_gloves/object_gi_gloves.h"
+#include "assets/objects/object_gi_hammer/object_gi_hammer.h"
+#include "assets/objects/object_gi_sutaru/object_gi_sutaru.h"
+#include "assets/objects/object_st/object_st.h"
+#include "assets/objects/object_gi_boomerang/object_gi_boomerang.h"
+#include "assets/objects/object_gi_liquid/object_gi_liquid.h"
+#include "assets/objects/object_gi_bow/object_gi_bow.h"
+#include "assets/objects/object_gi_hearts/object_gi_hearts.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/object_gi_sword_1/object_gi_sword_1.h"
+#include "assets/objects/object_gi_longsword/object_gi_longsword.h"
+#include "assets/objects/object_gi_clothes/object_gi_clothes.h"
+#include "assets/objects/object_gi_bomb_2/object_gi_bomb_2.h"
+#include "assets/objects/object_gla/object_gla.h"
+#include "assets/objects/object_toki_objects/object_toki_objects.h"
+#include "assets/objects/object_gi_pachinko/object_gi_pachinko.h"
+#include "assets/objects/object_trap/object_trap.h"
+#include "assets/overlays/ovl_Boss_Ganon2/ovl_Boss_Ganon2.h"
+#include "assets/objects/object_gjyo_objects/object_gjyo_objects.h"
+#include "assets/textures/nintendo_rogo_static/nintendo_rogo_static.h"
+#include "assets/objects/object_gi_rabit_mask/object_gi_rabit_mask.h"
 void ResourceMgr_PatchGfxByName(const char* path, const char* patchName, int index, Gfx instruction);
 void ResourceMgr_PatchGfxCopyCommandByName(const char* path, const char* patchName, int destinationIndex, int sourceIndex);
 void ResourceMgr_UnpatchGfxByName(const char* path, const char* patchName);

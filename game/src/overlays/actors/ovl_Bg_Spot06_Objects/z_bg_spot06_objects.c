@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_spot06_objects.h"
-#include "objects/object_spot06_objects/object_spot06_objects.h"
+#include "assets/objects/object_spot06_objects/object_spot06_objects.h"
 #include "soh/Enhancements/custom-message/CustomMessageTypes.h"
 
 #define FLAGS ACTOR_FLAG_HOOKSHOT_DRAGS

@@ -5,7 +5,7 @@
 #include <vector>
 #include <string>
 #include <cmath>
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <libultraship.h>
 
 extern "C" {

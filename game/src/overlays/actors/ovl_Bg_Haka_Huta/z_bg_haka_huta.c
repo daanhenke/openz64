@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_haka_huta.h"
-#include "objects/object_hakach_objects/object_hakach_objects.h"
+#include "assets/objects/object_hakach_objects/object_hakach_objects.h"
 
 #define FLAGS ACTOR_FLAG_UPDATE_WHILE_CULLED
 

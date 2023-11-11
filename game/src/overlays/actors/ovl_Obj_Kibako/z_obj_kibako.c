@@ -5,7 +5,7 @@
  */
 
 #include "z_obj_kibako.h"
-#include "objects/gameplay_dangeon_keep/gameplay_dangeon_keep.h"
+#include "assets/objects/gameplay_dangeon_keep/gameplay_dangeon_keep.h"
 #include "overlays/effects/ovl_Effect_Ss_Kakera/z_eff_ss_kakera.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_CAN_PRESS_SWITCH)

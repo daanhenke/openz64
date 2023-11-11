@@ -1,4 +1,4 @@
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include "draw.h"
 #include "z64.h"
 #include "macros.h"
@@ -7,12 +7,12 @@
 #include "soh/OTRGlobals.h"
 #include "randomizerTypes.h"
 #include <array>
-#include "objects/object_gi_key/object_gi_key.h"
-#include "objects/object_gi_bosskey/object_gi_bosskey.h"
-#include "objects/object_gi_hearts/object_gi_hearts.h"
-#include "objects/object_toki_objects/object_toki_objects.h"
-#include "objects/gameplay_field_keep/gameplay_field_keep.h"
-#include "soh_assets.h"
+#include "assets/objects/object_gi_key/object_gi_key.h"
+#include "assets/objects/object_gi_bosskey/object_gi_bosskey.h"
+#include "assets/objects/object_gi_hearts/object_gi_hearts.h"
+#include "assets/objects/object_toki_objects/object_toki_objects.h"
+#include "assets/objects/gameplay_field_keep/gameplay_field_keep.h"
+#include "assets/soh_assets.h"
 
 extern "C" {
 extern SaveContext gSaveContext;

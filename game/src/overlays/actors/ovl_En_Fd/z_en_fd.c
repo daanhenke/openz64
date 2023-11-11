@@ -5,8 +5,8 @@
  */
 
 #include "z_en_fd.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/object_fw/object_fw.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/object_fw/object_fw.h"
 #include "soh/frame_interpolation.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 

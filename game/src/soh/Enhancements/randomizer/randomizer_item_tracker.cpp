@@ -18,8 +18,8 @@ extern "C" {
 #include "macros.h"
 extern PlayState* gPlayState;
 
-#include "textures/icon_item_static/icon_item_static.h"
-#include "textures/icon_item_24_static/icon_item_24_static.h"
+#include "assets/textures/icon_item_static/icon_item_static.h"
+#include "assets/textures/icon_item_24_static/icon_item_24_static.h"
 }
 extern "C" uint32_t ResourceMgr_IsSceneMasterQuest(s16 sceneNum);
 

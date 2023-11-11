@@ -5,7 +5,7 @@
  */
 
 #include "z_en_mb.h"
-#include "objects/object_mb/object_mb.h"
+#include "assets/objects/object_mb/object_mb.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 
 /*

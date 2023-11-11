@@ -5,7 +5,7 @@
  */
 
 #include "z_en_siofuki.h"
-#include "objects/object_siofuki/object_siofuki.h"
+#include "assets/objects/object_siofuki/object_siofuki.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

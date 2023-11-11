@@ -4,7 +4,7 @@
 
 #include "overlays/actors/ovl_Bg_Jya_Bigmirror/z_bg_jya_bigmirror.h"
 #include "overlays/actors/ovl_Mir_Ray/z_mir_ray.h"
-#include "objects/object_jya_obj/object_jya_obj.h"
+#include "assets/objects/object_jya_obj/object_jya_obj.h"
 #include "vt.h"
 
 #define FLAGS ACTOR_FLAG_UPDATE_WHILE_CULLED
@@ -19,7 +19,7 @@ void func_80896950(BgJyaCobra* this, PlayState* play);
 void func_808969F8(BgJyaCobra* this, PlayState* play);
 void func_80896ABC(BgJyaCobra* this, PlayState* play);
 
-#include "overlays/ovl_Bg_Jya_Cobra/ovl_Bg_Jya_Cobra.h"
+#include "assets/overlays/ovl_Bg_Jya_Cobra/ovl_Bg_Jya_Cobra.h"
 
 const ActorInit Bg_Jya_Cobra_InitVars = {
     ACTOR_BG_JYA_COBRA,

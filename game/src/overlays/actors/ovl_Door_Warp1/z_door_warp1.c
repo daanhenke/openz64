@@ -1,5 +1,5 @@
 #include "z_door_warp1.h"
-#include "objects/object_warp1/object_warp1.h"
+#include "assets/objects/object_warp1/object_warp1.h"
 #include "soh/Enhancements/randomizer/randomizer_entrance.h"
 #include "soh/Enhancements/boss-rush/BossRush.h"
 

@@ -1,5 +1,5 @@
 #include "z_en_sw.h"
-#include "objects/object_st/object_st.h"
+#include "assets/objects/object_st/object_st.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_HOSTILE | ACTOR_FLAG_UPDATE_WHILE_CULLED)

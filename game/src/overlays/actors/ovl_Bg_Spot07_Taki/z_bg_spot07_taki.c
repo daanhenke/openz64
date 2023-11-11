@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_spot07_taki.h"
-#include "objects/object_spot07_object/object_spot07_object.h"
+#include "assets/objects/object_spot07_object/object_spot07_object.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

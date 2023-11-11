@@ -1,7 +1,7 @@
 #include "randomizer_check_objects.h"
 #include <map>
 #include <string>
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include "z64.h"
 
 //            RandomizerCheck,                                                RCVORMQ,         RCTYPE,              RCAREA,                        ActorId,            SceneId,                              ActorParams,                 OG ItemID,           "Short name", "Spoiler name", vanillaCompletion

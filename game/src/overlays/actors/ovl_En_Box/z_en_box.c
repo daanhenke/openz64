@@ -1,6 +1,6 @@
 #include "z_en_box.h"
-#include "objects/object_box/object_box.h"
-#include "soh_assets.h"
+#include "assets/objects/object_box/object_box.h"
+#include "assets/soh_assets.h"
 #include "soh/Enhancements/enhancementTypes.h"
 #include <assert.h>
 
@@ -852,7 +852,7 @@ void EnBox_CreateExtraChestTextures() {
     gChristmasGreenTreasureChestChestSideAndLidDL[29] = gTreasureChestChestTextures[9];
     gChristmasGreenTreasureChestChestSideAndLidDL[45] = gTreasureChestChestTextures[8];
 
-    ResourceMgr_ListFiles("objects/object_box/gChristmas*", &hasChristmasChestTexturesAvailable);
+    ResourceMgr_ListFiles("assets/objects/object_box/gChristmas*", &hasChristmasChestTexturesAvailable);
     hasCreatedRandoChestTextures = 1;
 }
 

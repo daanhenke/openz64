@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_haka_ship.h"
-#include "objects/object_haka_objects/object_haka_objects.h"
+#include "assets/objects/object_haka_objects/object_haka_objects.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

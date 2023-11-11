@@ -6,7 +6,7 @@
 
 #include "z_en_diving_game.h"
 #include "overlays/actors/ovl_En_Ex_Ruppy/z_en_ex_ruppy.h"
-#include "objects/object_zo/object_zo.h"
+#include "assets/objects/object_zo/object_zo.h"
 #include "vt.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY | ACTOR_FLAG_UPDATE_WHILE_CULLED)

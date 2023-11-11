@@ -4,7 +4,7 @@
  * Description: Link
  */
 
-#include <libultraship/libultra.h>
+#include <libultra.h>
 #include "global.h"
 
 #include "overlays/actors/ovl_Bg_Heavy_Block/z_bg_heavy_block.h"
@@ -18,9 +18,9 @@
 #include "overlays/actors/ovl_En_Horse/z_en_horse.h"
 #include "overlays/effects/ovl_Effect_Ss_Fhg_Flash/z_eff_ss_fhg_flash.h"
 #include "overlays/misc/ovl_kaleido_scope/z_kaleido_scope.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/object_link_child/object_link_child.h"
-#include "textures/icon_item_24_static/icon_item_24_static.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/object_link_child/object_link_child.h"
+#include "assets/textures/icon_item_24_static/icon_item_24_static.h"
 #include <soh/Enhancements/custom-message/CustomMessageTypes.h>
 #include "soh/Enhancements/item-tables/ItemTableTypes.h"
 #include "soh/Enhancements/game-interactor/GameInteractor.h"

@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_gnd_iceblock.h"
-#include "objects/object_demo_kekkai/object_demo_kekkai.h"
+#include "assets/objects/object_demo_kekkai/object_demo_kekkai.h"
 #include <assert.h>
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)

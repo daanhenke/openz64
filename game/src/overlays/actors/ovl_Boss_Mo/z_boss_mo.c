@@ -5,10 +5,10 @@
  */
 
 #include "z_boss_mo.h"
-#include "textures/boss_title_cards/object_mo.h"
-#include "objects/object_mo/object_mo.h"
+#include "assets/textures/boss_title_cards/object_mo.h"
+#include "assets/objects/object_mo/object_mo.h"
 #include "overlays/actors/ovl_Door_Warp1/z_door_warp1.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
 #include "vt.h"
 
 #include "soh/frame_interpolation.h"

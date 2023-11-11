@@ -15,7 +15,7 @@
 #include <d3d11.h>
 #include <d3dcompiler.h>
 
-#include "libultraship/libultraship.h"
+#include "libultraship.h"
 
 #ifndef _LANGUAGE_C
 #define _LANGUAGE_C

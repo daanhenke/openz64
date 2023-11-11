@@ -1,5 +1,5 @@
 #include "Cutscene.h"
-#include <libultraship/libultra/gbi.h>
+#include <libultra/gbi.h>
 
 namespace LUS {
 uint32_t* Cutscene::GetPointer() {

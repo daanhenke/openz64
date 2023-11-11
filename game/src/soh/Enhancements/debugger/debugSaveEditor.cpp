@@ -8,9 +8,9 @@
 #include <bit>
 #include <map>
 #include <string>
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <libultraship.h>
-#include "soh_assets.h"
+#include "assets/soh_assets.h"
 
 extern "C" {
 #include <z64.h>
@@ -20,9 +20,9 @@ extern "C" {
 #include "soh/Enhancements/randomizer/adult_trade_shuffle.h"
 extern PlayState* gPlayState;
 
-#include "textures/icon_item_static/icon_item_static.h"
-#include "textures/icon_item_24_static/icon_item_24_static.h"
-#include "textures/parameter_static/parameter_static.h"
+#include "assets/textures/icon_item_static/icon_item_static.h"
+#include "assets/textures/icon_item_24_static/icon_item_24_static.h"
+#include "assets/textures/parameter_static/parameter_static.h"
 }
 
 typedef struct {

@@ -5,8 +5,8 @@
  */
 
 #include "z_en_fhg.h"
-#include "textures/boss_title_cards/object_fhg.h"
-#include "objects/object_fhg/object_fhg.h"
+#include "assets/textures/boss_title_cards/object_fhg.h"
+#include "assets/objects/object_fhg/object_fhg.h"
 #include "overlays/actors/ovl_Door_Shutter/z_door_shutter.h"
 #include "overlays/actors/ovl_Boss_Ganondrof/z_boss_ganondrof.h"
 #include "overlays/actors/ovl_En_Fhg_Fire/z_en_fhg_fire.h"

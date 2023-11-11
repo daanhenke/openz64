@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_haka_water.h"
-#include "objects/object_hakach_objects/object_hakach_objects.h"
+#include "assets/objects/object_hakach_objects/object_hakach_objects.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

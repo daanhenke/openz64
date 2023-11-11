@@ -98,7 +98,7 @@ static u16 sVerticesMap[GANON_MANT_NUM_STRANDS * GANON_MANT_NUM_JOINTS] = {
 
 static u8 sMaskTex[MANT_TEX_WIDTH * MANT_TEX_HEIGHT] = { {0} };
 
-#include "overlays/ovl_En_Ganon_Mant/ovl_En_Ganon_Mant.h"
+#include "assets/overlays/ovl_En_Ganon_Mant/ovl_En_Ganon_Mant.h"
 
 void EnGanonMant_Init(Actor* thisx, PlayState* play) {
     EnGanonMant* this = (EnGanonMant*)thisx;

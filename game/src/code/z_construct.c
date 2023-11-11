@@ -1,5 +1,5 @@
 #include "global.h"
-#include <textures/do_action_static/do_action_static.h>
+#include <assets/textures/do_action_static/do_action_static.h>
 #include <assert.h>
 
 void func_80110990(PlayState* play) {

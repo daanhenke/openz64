@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_ddan_jd.h"
-#include "objects/object_ddan_objects/object_ddan_objects.h"
+#include "assets/objects/object_ddan_objects/object_ddan_objects.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

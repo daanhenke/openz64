@@ -6,8 +6,8 @@
 
 #include "vt.h"
 #include "z_en_sth.h"
-#include "objects/object_ahg/object_ahg.h"
-#include "objects/object_boj/object_boj.h"
+#include "assets/objects/object_ahg/object_ahg.h"
+#include "assets/objects/object_boj/object_boj.h"
 #include <assert.h>
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 
@@ -37,7 +37,7 @@ const ActorInit En_Sth_InitVars = {
     NULL,
 };
 
-#include "overlays/ovl_En_Sth/ovl_En_Sth.h"
+#include "assets/overlays/ovl_En_Sth/ovl_En_Sth.h"
 
 static ColliderCylinderInit sCylinderInit = {
     {

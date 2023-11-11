@@ -5,7 +5,7 @@
  */
 
 #include "z_en_dy_extra.h"
-#include "objects/object_dy_obj/object_dy_obj.h"
+#include "assets/objects/object_dy_obj/object_dy_obj.h"
 #include "vt.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)

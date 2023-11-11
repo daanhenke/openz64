@@ -5,7 +5,7 @@
  */
 
 #include "z_en_bx.h"
-#include "objects/object_bxa/object_bxa.h"
+#include "assets/objects/object_bxa/object_bxa.h"
 #include "soh/frame_interpolation.h"
 
 #define FLAGS ACTOR_FLAG_UPDATE_WHILE_CULLED

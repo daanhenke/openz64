@@ -5,7 +5,7 @@
  */
 
 #include "z_en_bdfire.h"
-#include "objects/object_kingdodongo/object_kingdodongo.h"
+#include "assets/objects/object_kingdodongo/object_kingdodongo.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

@@ -6,7 +6,7 @@
 
 #include "z_en_kakasi2.h"
 #include "vt.h"
-#include "objects/object_ka/object_ka.h"
+#include "assets/objects/object_ka/object_ka.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED | ACTOR_FLAG_NO_FREEZE_OCARINA | ACTOR_FLAG_NO_LOCKON)
 

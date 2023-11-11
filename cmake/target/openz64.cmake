@@ -1,3 +1,13 @@
+configure_file(
+    "game/src/boot/build.c.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/generated-include/openz64/build.c" @ONLY
+)
+
+configure_file(
+    "game/src/boot/properties.h.in"
+    "${CMAKE_CURRENT_BINARY_DIR}/generated-include/openz64/properties.h" @ONLY
+)
+
 set(OPENZ64_SOURCES
     boot/stackcheck.c
     boot/idle.c
@@ -22,10 +32,15 @@ set(OPENZ64_SOURCES
     code/audio_sound_params.c
     code/audio_synthesis.c
     code/audioMgr.c
+    code/code_800430A0.c
+    code/code_80043480.c
+    code/code_8006C3A0.c
+    code/code_8006C510.c
     code/code_80097A00.c
     code/code_800A9F30.c
     code/code_800ACE70.c
     code/code_800AD920.c
+    code/code_800BB0A0.c
     code/code_800C3C20.c
     code/code_800D2E30.c
     code/code_800D31A0.c
@@ -39,18 +54,25 @@ set(OPENZ64_SOURCES
     code/code_800FCE80.c
     code/code_800FD970.c
     code/code_801068B0.c
+    code/db_camera.c
     code/debug_malloc.c
     code/fault.c
     code/fault_drawer.c
+    code/flg_set.c
     code/game.c
     code/gamealloc.c
     code/gfxprint.c
     code/graph.c
     code/irqmgr.c
+    code/listalloc.c
+    code/loadfragment2.c
+    code/logseverity.c
     code/main.c
+    code/mempak.c
     code/padmgr.c
     code/padutils.c
     code/padsetup.c
+    code/PreRender.c
     code/printutils.c
     code/sched.c
     code/shrink_window.c
@@ -68,42 +90,86 @@ set(OPENZ64_SOURCES
     code/z_actor.c
     code/z_bgcheck.c
     code/z_camera.c
+    code/z_cheap_proc.c
     code/z_common_data.c
+    code/z_construct.c
+    code/z_collision_btltbls.c
     code/z_collision_check.c
     code/z_debug.c
+    code/z_debug_display.c
+    code/z_demo.c
+    code/z_draw.c
     code/z_DLF.c
     code/z_effect.c
     code/z_effect_soft_sprite_old_init.c
+    code/z_effect_soft_sprite.c
+    code/z_effect_soft_sprite_dlftbls.c
+    code/z_eff_blure.c
+    code/z_eff_shield_particle.c
     code/z_eff_spark.c
     code/z_eff_ss_dead.c
+    code/z_elf_message.c
+    code/z_en_item00.c
+    code/z_en_a_keep.c
+    code/z_face_reaction.c
+    code/z_fbdemo.c
+    code/z_fbdemo_circle.c
     code/z_fbdemo_fade.c
     code/z_fbdemo_wipe1.c
     code/z_fbdemo_triforce.c
+    code/z_fcurve_data_skelanime.c
+    code/z_frame_advance.c
     code/z_game_dlftbls.c
+    code/z_game_over.c
+    code/z_horse.c
     code/z_kanfont.c
     code/z_kankyo.c
+    code/z_kaleido_scope_call.c
+    code/z_kaleido_setup.c
+    code/z_kaleido_manager.c
     code/z_lib.c
     code/z_lights.c
     code/z_lifemeter.c
     code/z_malloc.c
+    code/z_map_data.c
+    code/z_map_exp.c
+    code/z_map_mark.c
     code/z_message_PAL.c
+    code/z_msgevent.c
+    code/z_onepointdemo.c
     code/z_olib.c
     code/z_parameter.c
+    code/z_path.c
     code/z_prenmi.c
     code/z_prenmi_buff.c
     code/z_play.c
+    code/z_player_call.c
     code/z_player_lib.c
     code/z_quake.c
     code/z_rcp.c
     code/z_room.c
     code/z_scene.c
     code/z_scene_table.c
+    code/z_sound_source.c
+    code/z_sram.c
     code/z_skelanime.c
+    code/z_skin.c
+    code/z_skin_awb.c
     code/z_skin_matrix.c
     code/z_view.c
     code/z_vimode.c
     code/z_vismono.c
     code/z_vr_box.c
+    code/z_vr_box_draw.c
+
+    libultra/gu/sins.c
+    libultra/gu/coss.c
+    libultra/gu/guLookAt.c
+    libultra/gu/guLookAtHilite.c
+    libultra/gu/guPerspectiveF.c # perspective.c seems to be same file?
+    libultra/gu/guS2DInitBg.c # us2dex.c seems to be same file?
+    libultra/gu/rotate.c
+    libultra/gu/ortho.c
 
     soh/ActorDB.cpp
     soh/CrashHandlerExt.cpp
@@ -124,26 +190,196 @@ set(OPENZ64_SOURCES
 
     soh/config/ConfigUpdaters.cpp
 
+    soh/Enhancements/bootcommands.c
+    soh/Enhancements/debugconsole.cpp
     soh/Enhancements/gameconsole.c
     soh/Enhancements/gameplaystats.cpp
+    soh/Enhancements/nametag.cpp
+    soh/Enhancements/enemyrandomizer.cpp
+    soh/Enhancements/presets.cpp
+    soh/Enhancements/mods.cpp
+    soh/Enhancements/savestates.cpp
 
     soh/Enhancements/audio/AudioCollection.cpp
     soh/Enhancements/audio/AudioEditor.cpp
 
+    soh/Enhancements/boss-rush/BossRush.cpp
+
+    soh/Enhancements/controls/GameControlEditor.cpp
+
+    soh/Enhancements/cosmetics/authenticGfxPatches.cpp
+    soh/Enhancements/cosmetics/CosmeticsEditor.cpp
+
+    soh/Enhancements/custom-message/CustomMessageManager.cpp
+
+    soh/Enhancements/debugger/actorViewer.cpp
+    soh/Enhancements/debugger/colViewer.cpp
+    soh/Enhancements/debugger/debugSaveEditor.cpp
+    soh/Enhancements/debugger/dlViewer.cpp
+
+    soh/Enhancements/item-tables/ItemTableManager.cpp
+
+    soh/Enhancements/randomizer/adult_trade_shuffle.c
+    soh/Enhancements/randomizer/randomizer.cpp
+    soh/Enhancements/randomizer/randomizer_entrance.c
+    soh/Enhancements/randomizer/randomizer_grotto.c
+    soh/Enhancements/randomizer/randomizer_check_objects.cpp
+    soh/Enhancements/randomizer/randomizer_check_tracker.cpp
+    soh/Enhancements/randomizer/randomizer_entrance_tracker.cpp
+    soh/Enhancements/randomizer/randomizer_tricks.cpp
+    soh/Enhancements/randomizer/randomizer_item_tracker.cpp
+    soh/Enhancements/randomizer/draw.cpp
+    soh/Enhancements/randomizer/savefile.cpp
+    
+    soh/Enhancements/randomizer/3drando/settings.cpp
+    soh/Enhancements/randomizer/3drando/item_location.cpp
+    soh/Enhancements/randomizer/3drando/item_list.cpp
+    soh/Enhancements/randomizer/3drando/item_pool.cpp
+    soh/Enhancements/randomizer/3drando/item.cpp
+    soh/Enhancements/randomizer/3drando/custom_messages.cpp
+    soh/Enhancements/randomizer/3drando/random.cpp
+    soh/Enhancements/randomizer/3drando/shops.cpp
+    soh/Enhancements/randomizer/3drando/logic.cpp
+    soh/Enhancements/randomizer/3drando/trial.cpp
+    soh/Enhancements/randomizer/3drando/entrance.cpp
+    soh/Enhancements/randomizer/3drando/utils.cpp
+    soh/Enhancements/randomizer/3drando/dungeon.cpp
+    soh/Enhancements/randomizer/3drando/starting_inventory.cpp
+    soh/Enhancements/randomizer/3drando/spoiler_log.cpp
+    soh/Enhancements/randomizer/3drando/menu.cpp
+    soh/Enhancements/randomizer/3drando/playthrough.cpp
+    soh/Enhancements/randomizer/3drando/tinyxml2.cpp
+    soh/Enhancements/randomizer/3drando/location_access.cpp
+    soh/Enhancements/randomizer/3drando/fill.cpp
+    soh/Enhancements/randomizer/3drando/hint_list.cpp
+    soh/Enhancements/randomizer/3drando/hints.cpp
+    soh/Enhancements/randomizer/3drando/rando_main.cpp
+
+    soh/Enhancements/randomizer/3drando/hint_list/hint_list_exclude_dungeon.cpp
+    soh/Enhancements/randomizer/3drando/hint_list/hint_list_exclude_overworld.cpp
+    soh/Enhancements/randomizer/3drando/hint_list/hint_list_item.cpp
+
+    soh/Enhancements/randomizer/3drando/location_access/locacc_bottom_of_the_well.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_castle_town.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_death_mountain.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_deku_tree.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_dodongos_cavern.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_fire_temple.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_forest_temple.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_ganons_castle.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_gerudo_training_grounds.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_gerudo_valley.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_hyrule_field.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_ice_cavern.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_jabujabus_belly.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_kakariko.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_lost_woods.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_shadow_temple.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_spirit_temple.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_water_temple.cpp
+    soh/Enhancements/randomizer/3drando/location_access/locacc_zoras_domain.cpp
+
+    soh/Enhancements/tts/tts.cpp
+
     soh/Extractor/Extract.cpp
+    soh/Extractor/FastCrc32C.c
 
+    soh/Enhancements/game-interactor/GameInteractor.cpp
     soh/Enhancements/game-interactor/GameInteractor_Hooks.cpp
+    soh/Enhancements/game-interactor/GameInteractor_RawAction.cpp
     soh/Enhancements/game-interactor/GameInteractor_State.cpp
+    soh/Enhancements/game-interactor/GameInteractionEffect.cpp
 
-    overlays/gamestates/ovl_title/z_title.c
-    overlays/gamestates/ovl_select/z_select.c
-    overlays/gamestates/ovl_file_choose/z_file_choose.c
+    soh/resource/importer/AnimationFactory.cpp
+    soh/resource/importer/AudioSampleFactory.cpp
+    soh/resource/importer/AudioSequenceFactory.cpp
+    soh/resource/importer/AudioSoundFontFactory.cpp
+    soh/resource/importer/BackgroundFactory.cpp
+    soh/resource/importer/CollisionHeaderFactory.cpp
+    soh/resource/importer/CutsceneFactory.cpp
+    soh/resource/importer/PathFactory.cpp
+    soh/resource/importer/PlayerAnimationFactory.cpp
+    soh/resource/importer/SceneFactory.cpp
+    soh/resource/importer/SkeletonFactory.cpp
+    soh/resource/importer/SkeletonLimbFactory.cpp
+    soh/resource/importer/TextFactory.cpp
 
-    overlays/misc/ovl_kaleido_scope/z_kaleido_scope_PAL.c
+    soh/resource/importer/scenecommand/EndMarkerFactory.cpp
+    soh/resource/importer/scenecommand/SceneCommandFactory.cpp
+    soh/resource/importer/scenecommand/SetActorListFactory.cpp
+    soh/resource/importer/scenecommand/SetAlternateHeadersFactory.cpp
+    soh/resource/importer/scenecommand/SetCameraSettingsFactory.cpp
+    soh/resource/importer/scenecommand/SetCollisionHeaderFactory.cpp
+    soh/resource/importer/scenecommand/SetCsCameraFactory.cpp
+    soh/resource/importer/scenecommand/SetCutscenesFactory.cpp
+    soh/resource/importer/scenecommand/SetEchoSettingsFactory.cpp
+    soh/resource/importer/scenecommand/SetEntranceListFactory.cpp
+    soh/resource/importer/scenecommand/SetExitListFactory.cpp
+    soh/resource/importer/scenecommand/SetLightingSettingsFactory.cpp
+    soh/resource/importer/scenecommand/SetLightListFactory.cpp
+    soh/resource/importer/scenecommand/SetMeshFactory.cpp
+    soh/resource/importer/scenecommand/SetObjectListFactory.cpp
+    soh/resource/importer/scenecommand/SetPathwaysFactory.cpp
+    soh/resource/importer/scenecommand/SetRoomBehaviorFactory.cpp
+    soh/resource/importer/scenecommand/SetRoomListFactory.cpp
+    soh/resource/importer/scenecommand/SetSkyboxModifierFactory.cpp
+    soh/resource/importer/scenecommand/SetSkyboxSettingsFactory.cpp
+    soh/resource/importer/scenecommand/SetSoundSettingsFactory.cpp
+    soh/resource/importer/scenecommand/SetSpecialObjectsFactory.cpp
+    soh/resource/importer/scenecommand/SetStartPositionListFactory.cpp
+    soh/resource/importer/scenecommand/SetTimeSettingsFactory.cpp
+    soh/resource/importer/scenecommand/SetTransitionActorListFactory.cpp
+    soh/resource/importer/scenecommand/SetWindSettingsFactory.cpp
+
+    soh/resource/type/Animation.cpp
+    soh/resource/type/AudioSample.cpp
+    soh/resource/type/AudioSequence.cpp
+    soh/resource/type/AudioSoundFont.cpp
+    soh/resource/type/Background.cpp
+    soh/resource/type/CollisionHeader.cpp
+    soh/resource/type/Cutscene.cpp
+    soh/resource/type/Path.cpp
+    soh/resource/type/PlayerAnimation.cpp
+    soh/resource/type/Scene.cpp
+    soh/resource/type/Skeleton.cpp
+    soh/resource/type/SkeletonLimb.cpp
+    soh/resource/type/Text.cpp
+
+    soh/resource/type/scenecommand/EndMarker.cpp
+    soh/resource/type/scenecommand/SetActorList.cpp
+    soh/resource/type/scenecommand/SetAlternateHeaders.cpp
+    soh/resource/type/scenecommand/SetCameraSettings.cpp
+    soh/resource/type/scenecommand/SetCollisionHeader.cpp
+    soh/resource/type/scenecommand/SetCsCamera.cpp
+    soh/resource/type/scenecommand/SetCutscenes.cpp
+    soh/resource/type/scenecommand/SetEchoSettings.cpp
+    soh/resource/type/scenecommand/SetEntranceList.cpp
+    soh/resource/type/scenecommand/SetExitList.cpp
+    soh/resource/type/scenecommand/SetLightingSettings.cpp
+    soh/resource/type/scenecommand/SetLightList.cpp
+    soh/resource/type/scenecommand/SetMesh.cpp
+    soh/resource/type/scenecommand/SetObjectList.cpp
+    soh/resource/type/scenecommand/SetPathways.cpp
+    soh/resource/type/scenecommand/SetRoomBehavior.cpp
+    soh/resource/type/scenecommand/SetRoomList.cpp
+    soh/resource/type/scenecommand/SetSkyboxModifier.cpp
+    soh/resource/type/scenecommand/SetSkyboxSettings.cpp
+    soh/resource/type/scenecommand/SetSoundSettings.cpp
+    soh/resource/type/scenecommand/SetSpecialObjects.cpp
+    soh/resource/type/scenecommand/SetStartPositionList.cpp
+    soh/resource/type/scenecommand/SetTimeSettings.cpp
+    soh/resource/type/scenecommand/SetTransitionActorList.cpp
+    soh/resource/type/scenecommand/SetWindSettings.cpp
 )
 
+file(GLOB_RECURSE OPENZ64_OVERLAY_SOURCES "game/src/overlays/**/*.c")
+
 list(TRANSFORM OPENZ64_SOURCES PREPEND "game/src/")
-add_executable(openz64 ${OPENZ64_SOURCES})
+add_executable(openz64 
+    ${OPENZ64_SOURCES}
+    ${OPENZ64_OVERLAY_SOURCES}
+    "${CMAKE_CURRENT_BINARY_DIR}/generated-include/openz64/build.c"
+)
 target_include_directories(openz64
     PRIVATE "game/src"
     PUBLIC "game/include"

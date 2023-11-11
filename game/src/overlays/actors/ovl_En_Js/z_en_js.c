@@ -5,7 +5,7 @@
  */
 
 #include "z_en_js.h"
-#include "objects/object_js/object_js.h"
+#include "assets/objects/object_js/object_js.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY)
 

@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_mizu_water.h"
-#include "objects/object_mizu_objects/object_mizu_objects.h"
+#include "assets/objects/object_mizu_objects/object_mizu_objects.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

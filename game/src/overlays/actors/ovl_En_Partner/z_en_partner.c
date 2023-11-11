@@ -5,10 +5,10 @@
  */
 
 #include "z_en_partner.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
 #include <overlays/actors/ovl_En_Arrow/z_en_arrow.h>
 #include "overlays/actors/ovl_En_Si/z_en_si.h"
-#include <objects/object_link_child/object_link_child.h>
+#include <assets/objects/object_link_child/object_link_child.h>
 #include <overlays/actors/ovl_En_Bom/z_en_bom.h>
 #include <overlays/actors/ovl_Obj_Switch/z_obj_switch.h>
 

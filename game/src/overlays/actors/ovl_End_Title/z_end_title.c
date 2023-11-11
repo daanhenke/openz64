@@ -27,7 +27,7 @@ const ActorInit End_Title_InitVars = {
     NULL,
 };
 
-#include "overlays/ovl_End_Title/ovl_End_Title.h"
+#include "assets/overlays/ovl_End_Title/ovl_End_Title.h"
 
 void EndTitle_Init(Actor* thisx, PlayState* play) {
     EndTitle* this = (EndTitle*)thisx;

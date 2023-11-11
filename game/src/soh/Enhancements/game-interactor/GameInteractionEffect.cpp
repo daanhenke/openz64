@@ -10,7 +10,7 @@ have functions to both enable and disable said effect.
 
 #include "GameInteractionEffect.h"
 #include "GameInteractor.h"
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 
 extern "C" {
 #include <z64.h>

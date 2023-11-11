@@ -7,7 +7,7 @@ Gfx sCircleNullDList[] = {
 };
 
 //#include "code/fbdemo_circle/z_fbdemo_circle.c"
-#include "code/fbdemo_circle/z_fbdemo_circle.h"
+#include "assets/code/fbdemo_circle/z_fbdemo_circle.h"
 
 Gfx __sCircleDList[] = {
     gsDPPipeSync(),                                                                                                 // 0

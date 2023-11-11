@@ -5,9 +5,9 @@
  */
 
 #include "z_boss_sst.h"
-#include "textures/boss_title_cards/object_sst.h"
-#include "objects/object_sst/object_sst.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
+#include "assets/textures/boss_title_cards/object_sst.h"
+#include "assets/objects/object_sst/object_sst.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
 #include "overlays/actors/ovl_Bg_Sst_Floor/z_bg_sst_floor.h"
 #include "overlays/actors/ovl_Door_Warp1/z_door_warp1.h"
 #include "soh/frame_interpolation.h"
@@ -191,7 +191,7 @@ void BossSst_SpawnIceCrystal(BossSst* this, s32 index);
 void BossSst_SpawnIceShard(BossSst* this);
 void BossSst_IceShatter(BossSst* this);
 
-#include "overlays/ovl_Boss_Sst/ovl_Boss_Sst.h"
+#include "assets/overlays/ovl_Boss_Sst/ovl_Boss_Sst.h"
 
 static BossSst* sHead;
 static BossSst* sHands[2];

@@ -1,10 +1,10 @@
 #include "z_boss_ganon.h"
-#include "overlays/ovl_Boss_Ganon/ovl_Boss_Ganon.h"
+#include "assets/overlays/ovl_Boss_Ganon/ovl_Boss_Ganon.h"
 #include "overlays/actors/ovl_En_Ganon_Mant/z_en_ganon_mant.h"
 #include "overlays/actors/ovl_En_Zl3/z_en_zl3.h"
 #include "overlays/actors/ovl_Bg_Ganon_Otyuka/z_bg_ganon_otyuka.h"
 #include "overlays/actors/ovl_En_Bom/z_en_bom.h"
-#include "textures/boss_title_cards/object_ganon.h"
+#include "assets/textures/boss_title_cards/object_ganon.h"
 #include "assets/objects/object_ganon/object_ganon.h"
 #include "assets/objects/object_ganon_anime1/object_ganon_anime1.h"
 #include "assets/objects/object_ganon_anime2/object_ganon_anime2.h"
@@ -5123,7 +5123,7 @@ void BossGanon_DrawEffects(PlayState* play) {
     CLOSE_DISPS(gfxCtx);
 }
 
-#include "overlays/ovl_Boss_Ganon/ovl_Boss_Ganon.h"
+#include "assets/overlays/ovl_Boss_Ganon/ovl_Boss_Ganon.h"
 
 void BossGanon_Reset(void) {
     sBossGanonSeed1 = 0;

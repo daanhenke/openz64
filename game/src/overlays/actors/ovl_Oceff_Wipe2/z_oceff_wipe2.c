@@ -57,7 +57,7 @@ void OceffWipe2_Update(Actor* thisx, PlayState* play) {
     }
 }
 
-#include "overlays/ovl_Oceff_Wipe2/ovl_Oceff_Wipe2.h"
+#include "assets/overlays/ovl_Oceff_Wipe2/ovl_Oceff_Wipe2.h"
 
 void OceffWipe2_Draw(Actor* thisx, PlayState* play) {
     u32 scroll = play->state.frames & 0xFF;

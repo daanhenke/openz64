@@ -5,9 +5,9 @@
 #include "location_access.hpp"
 #include "rando_main.hpp"
 // #include <soh/Enhancements/randomizer.h>
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <Context.h>
-#include <libultraship/libultra/types.h>
+#include <libultra/types.h>
 
 void RandoMain::GenerateRando(std::unordered_map<RandomizerSettingKey, u8> cvarSettings, std::set<RandomizerCheck> excludedLocations, std::set<RandomizerTrick> enabledTricks,
     std::string seedString) {

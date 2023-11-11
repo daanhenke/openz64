@@ -5,7 +5,7 @@
  */
 
 #include "z_en_ds.h"
-#include "objects/object_ds/object_ds.h"
+#include "assets/objects/object_ds/object_ds.h"
 #include "soh/Enhancements/randomizer/adult_trade_shuffle.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY)

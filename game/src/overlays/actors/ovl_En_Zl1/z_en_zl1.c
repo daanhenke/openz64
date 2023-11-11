@@ -5,7 +5,7 @@
  */
 
 #include "z_en_zl1.h"
-#include "objects/object_zl1/object_zl1.h"
+#include "assets/objects/object_zl1/object_zl1.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY | ACTOR_FLAG_UPDATE_WHILE_CULLED)
 

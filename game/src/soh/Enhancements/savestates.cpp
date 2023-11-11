@@ -1,6 +1,6 @@
 #include "savestates.h"
 
-#include <GameVersions.h>
+#include <resource/GameVersions.h>
 
 #include <cstdio> // std::sprintf
 
@@ -15,11 +15,11 @@
 #include <variables.h>
 #include <functions.h>
 #include "z64map_mark.h"
-#include "../../src/overlays/actors/ovl_Boss_Ganon/z_boss_ganon.h"
-#include "../../src/overlays/actors/ovl_Boss_Ganon2/z_boss_ganon2.h"
-#include "../../src/overlays/actors/ovl_Boss_Tw/z_boss_tw.h"
-#include "../../src/overlays/actors/ovl_En_Clear_Tag/z_en_clear_tag.h"
-#include "../../src/overlays/actors/ovl_En_Fr/z_en_fr.h"
+#include "overlays/actors/ovl_Boss_Ganon/z_boss_ganon.h"
+#include "overlays/actors/ovl_Boss_Ganon2/z_boss_ganon2.h"
+#include "overlays/actors/ovl_Boss_Tw/z_boss_tw.h"
+#include "overlays/actors/ovl_En_Clear_Tag/z_en_clear_tag.h"
+#include "overlays/actors/ovl_En_Fr/z_en_fr.h"
 
 #include <libultraship.h>
 

@@ -1,6 +1,6 @@
 #include "z_boss_ganon2.h"
 #include "overlays/actors/ovl_En_Zl3/z_en_zl3.h"
-#include "objects/object_ganon2/object_ganon2.h"
+#include "assets/objects/object_ganon2/object_ganon2.h"
 
 static Vec3f D_80906D60 = { 0.0f, 0.0f, 0.0f };
 
@@ -309,7 +309,7 @@ static s16 D_809071CC[] = { 1, -1, 1, 1, 3, 4, 1, 6, 7, 2, 9, 10, 2, 12, 13 };
 
 static u8 D_809071EC[] = { 3, 2, 2, 1, 3, 3, 1, 3, 3, 1, 0, 3, 1, 0, 3 };
 
-#include "overlays/ovl_Boss_Ganon2/ovl_Boss_Ganon2.h"
+#include "assets/overlays/ovl_Boss_Ganon2/ovl_Boss_Ganon2.h"
 
 // padding
 //static u32 D_809071FC[2] = { 0 };

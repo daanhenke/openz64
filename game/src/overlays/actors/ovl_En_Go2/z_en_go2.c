@@ -1,7 +1,7 @@
 #include "z_en_go2.h"
 #include "overlays/actors/ovl_En_Bom/z_en_bom.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/object_oF1d_map/object_oF1d_map.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/object_oF1d_map/object_oF1d_map.h"
 #include "soh/frame_interpolation.h"
 #include "soh/Enhancements/randomizer/adult_trade_shuffle.h"
 

@@ -19,7 +19,7 @@ void ArrowIce_Charge(ArrowIce* this, PlayState* play);
 void ArrowIce_Fly(ArrowIce* this, PlayState* play);
 void ArrowIce_Hit(ArrowIce* this, PlayState* play);
 
-#include "overlays/ovl_Arrow_Ice/ovl_Arrow_Ice.h"
+#include "assets/overlays/ovl_Arrow_Ice/ovl_Arrow_Ice.h"
 
 const ActorInit Arrow_Ice_InitVars = {
     ACTOR_ARROW_ICE,

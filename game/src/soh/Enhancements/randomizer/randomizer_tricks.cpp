@@ -1,7 +1,7 @@
 #include "randomizer_tricks.h"
 #include <map>
 #include <string>
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include "z64.h"
 
 //Difficulty base tag vectors:

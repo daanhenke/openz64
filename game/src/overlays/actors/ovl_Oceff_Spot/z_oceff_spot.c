@@ -29,7 +29,7 @@ const ActorInit Oceff_Spot_InitVars = {
     NULL,
 };
 
-#include "overlays/ovl_Oceff_Spot/ovl_Oceff_Spot.h"
+#include "assets/overlays/ovl_Oceff_Spot/ovl_Oceff_Spot.h"
 
 static InitChainEntry sInitChain[] = {
     ICHAIN_VEC3F_DIV1000(scale, 0, ICHAIN_CONTINUE),

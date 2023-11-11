@@ -5,7 +5,7 @@
  */
 
 #include "z_en_bili.h"
-#include "objects/object_bl/object_bl.h"
+#include "assets/objects/object_bl/object_bl.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_HOSTILE | ACTOR_FLAG_IGNORE_QUAKE | ACTOR_FLAG_ARROW_DRAGGABLE)
@@ -750,7 +750,7 @@ static void* sTentaclesTextures[] = {
     gBiriTentacles4Tex, gBiriTentacles5Tex, gBiriTentacles6Tex, gBiriTentacles7Tex,
 };
 
-#include "overlays/ovl_En_Bili/ovl_En_Bili.h"
+#include "assets/overlays/ovl_En_Bili/ovl_En_Bili.h"
 
 void EnBili_Draw(Actor* thisx, PlayState* play) {
     EnBili* this = (EnBili*)thisx;

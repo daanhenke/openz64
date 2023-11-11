@@ -5,7 +5,7 @@
  */
 
 #include "z_en_firefly.h"
-#include "objects/object_firefly/object_firefly.h"
+#include "assets/objects/object_firefly/object_firefly.h"
 #include "overlays/actors/ovl_Obj_Syokudai/z_obj_syokudai.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 

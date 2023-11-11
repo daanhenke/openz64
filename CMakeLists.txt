@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.20)
-project(openz64)
+project(openz64 VERSION 8.0.1)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED TRUE)
@@ -19,6 +19,7 @@ endif()
 include("${OZ64_CMAKE_PATH}/platform/${OZ64_TARGET_PLATFORM}.cmake")
 
 add_subdirectory("libraries")
+#add_subdirectory("external/OTRExporter")
 
 include("${OZ64_CMAKE_PATH}/target/libultra.cmake")
 include("${OZ64_CMAKE_PATH}/target/openz64.cmake")

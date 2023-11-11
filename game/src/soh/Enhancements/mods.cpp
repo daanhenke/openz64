@@ -1,5 +1,5 @@
 #include "mods.h"
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include "game-interactor/GameInteractor.h"
 #include "tts/tts.h"
 #include "soh/OTRGlobals.h"
@@ -10,19 +10,19 @@
 #include <soh/Enhancements/item-tables/ItemTableManager.h>
 #include "soh/Enhancements/nametag.h"
 
-#include "src/overlays/actors/ovl_En_Bb/z_en_bb.h"
-#include "src/overlays/actors/ovl_En_Dekubaba/z_en_dekubaba.h"
-#include "src/overlays/actors/ovl_En_Mb/z_en_mb.h"
-#include "src/overlays/actors/ovl_En_Tite/z_en_tite.h"
-#include "src/overlays/actors/ovl_En_Zf/z_en_zf.h"
-#include "src/overlays/actors/ovl_En_Wf/z_en_wf.h"
-#include "src/overlays/actors/ovl_En_Reeba/z_en_reeba.h"
-#include "src/overlays/actors/ovl_En_Peehat/z_en_peehat.h"
-#include "src/overlays/actors/ovl_En_Po_Field/z_en_po_field.h"
-#include "src/overlays/actors/ovl_En_Poh/z_en_poh.h"
-#include "src/overlays/actors/ovl_En_Tp/z_en_tp.h"
-#include "src/overlays/actors/ovl_En_Firefly/z_en_firefly.h"
-#include "src/overlays/actors/ovl_En_Xc/z_en_xc.h"
+#include "overlays/actors/ovl_En_Bb/z_en_bb.h"
+#include "overlays/actors/ovl_En_Dekubaba/z_en_dekubaba.h"
+#include "overlays/actors/ovl_En_Mb/z_en_mb.h"
+#include "overlays/actors/ovl_En_Tite/z_en_tite.h"
+#include "overlays/actors/ovl_En_Zf/z_en_zf.h"
+#include "overlays/actors/ovl_En_Wf/z_en_wf.h"
+#include "overlays/actors/ovl_En_Reeba/z_en_reeba.h"
+#include "overlays/actors/ovl_En_Peehat/z_en_peehat.h"
+#include "overlays/actors/ovl_En_Po_Field/z_en_po_field.h"
+#include "overlays/actors/ovl_En_Poh/z_en_poh.h"
+#include "overlays/actors/ovl_En_Tp/z_en_tp.h"
+#include "overlays/actors/ovl_En_Firefly/z_en_firefly.h"
+#include "overlays/actors/ovl_En_Xc/z_en_xc.h"
 
 extern "C" {
 #include <z64.h>

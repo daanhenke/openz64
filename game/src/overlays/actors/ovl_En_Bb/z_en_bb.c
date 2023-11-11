@@ -5,8 +5,8 @@
  */
 
 #include "z_en_bb.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/object_Bb/object_Bb.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/object_Bb/object_Bb.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_HOSTILE | ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_PLAY_HIT_SFX)

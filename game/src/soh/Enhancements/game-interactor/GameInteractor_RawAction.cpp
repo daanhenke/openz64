@@ -1,5 +1,5 @@
 #include "GameInteractor.h"
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include "soh/Enhancements/cosmetics/CosmeticsEditor.h"
 #include "soh/Enhancements/randomizer/3drando/random.hpp"
 #include <math.h>

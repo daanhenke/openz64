@@ -1,5 +1,5 @@
 #include "PlayerAnimation.h"
-#include <libultraship/libultra/gbi.h>
+#include <libultra/gbi.h>
 
 namespace LUS {
 int16_t* PlayerAnimation::GetPointer() {

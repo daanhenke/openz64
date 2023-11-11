@@ -5,7 +5,7 @@
  */
 
 #include "z_en_nwc.h"
-#include "objects/object_nwc/object_nwc.h"
+#include "assets/objects/object_nwc/object_nwc.h"
 #include "soh/frame_interpolation.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)

@@ -5,7 +5,7 @@
  */
 
 #include "z_en_st.h"
-#include "objects/object_st/object_st.h"
+#include "assets/objects/object_st/object_st.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_HOSTILE | ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
@@ -22,7 +22,7 @@ void EnSt_Die(EnSt* this, PlayState* play);
 void EnSt_BounceAround(EnSt* this, PlayState* play);
 void EnSt_FinishBouncing(EnSt* this, PlayState* play);
 
-#include "overlays/ovl_En_St/ovl_En_St.h"
+#include "assets/overlays/ovl_En_St/ovl_En_St.h"
 
 const ActorInit En_St_InitVars = {
     ACTOR_EN_ST,

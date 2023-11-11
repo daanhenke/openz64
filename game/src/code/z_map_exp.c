@@ -1,9 +1,9 @@
 #include "global.h"
 #include "vt.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "textures/parameter_static/parameter_static.h"
-#include "textures/map_i_static/map_i_static.h"
-#include "textures/map_grand_static/map_grand_static.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/textures/parameter_static/parameter_static.h"
+#include "assets/textures/map_i_static/map_i_static.h"
+#include "assets/textures/map_grand_static/map_grand_static.h"
 #include <assert.h>
 
 MapData* gMapData;

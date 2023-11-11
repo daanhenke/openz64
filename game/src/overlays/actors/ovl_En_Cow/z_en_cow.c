@@ -5,7 +5,7 @@
  */
 
 #include "z_en_cow.h"
-#include "objects/object_cow/object_cow.h"
+#include "assets/objects/object_cow/object_cow.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY)
 

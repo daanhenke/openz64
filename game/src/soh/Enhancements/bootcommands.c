@@ -2,8 +2,8 @@
 #include "gameconsole.h"
 #include <macros.h>
 #include <z64.h>
-#include <libultraship/libultra.h>
-#include <libultraship/bridge.h>
+#include <libultra.h>
+#include <libultra/bridge.h>
 #include <functions.h>
 #include <variables.h>
 #include <string.h>

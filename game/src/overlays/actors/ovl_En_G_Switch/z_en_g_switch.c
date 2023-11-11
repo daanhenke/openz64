@@ -9,9 +9,9 @@
 #include "overlays/actors/ovl_En_Syateki_Itm/z_en_syateki_itm.h"
 #include "overlays/effects/ovl_Effect_Ss_Kakera/z_eff_ss_kakera.h"
 #include "overlays/effects/ovl_Effect_Ss_HitMark/z_eff_ss_hitmark.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/object_tsubo/object_tsubo.h"
-#include "objects/object_gi_rupy/object_gi_rupy.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/object_tsubo/object_tsubo.h"
+#include "assets/objects/object_gi_rupy/object_gi_rupy.h"
 #include "soh/frame_interpolation.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)

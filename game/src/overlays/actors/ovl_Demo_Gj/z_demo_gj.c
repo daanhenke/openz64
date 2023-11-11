@@ -5,8 +5,8 @@
  */
 
 #include "z_demo_gj.h"
-#include "objects/object_gj/object_gj.h"
-#include "objects/object_geff/object_geff.h"
+#include "assets/objects/object_gj/object_gj.h"
+#include "assets/objects/object_geff/object_geff.h"
 #include "vt.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)

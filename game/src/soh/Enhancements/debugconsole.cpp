@@ -1,5 +1,5 @@
 #include "debugconsole.h"
-#include <Utils.h>
+#include <utils/Utils.h>
 #include "savestates.h"
 #include "soh/ActorDB.h"
 
@@ -15,9 +15,9 @@
 #define PATH_HACK
 #include <Utils/StringHelper.h>
 
-#include <Window.h>
+#include <window/Window.h>
 #include <Context.h>
-#include <ImGui/imgui_internal.h>
+#include <imgui_internal.h>
 #undef PATH_HACK
 #undef Path
 
@@ -29,7 +29,7 @@ extern "C" {
 extern PlayState* gPlayState;
 }
 
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <libultraship.h>
 
 #define CMD_REGISTER LUS::Context::GetInstance()->GetConsole()->AddCommand

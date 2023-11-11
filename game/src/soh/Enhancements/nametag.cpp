@@ -1,5 +1,5 @@
 #include "nametag.h"
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <vector>
 #include <algorithm>
 #include "soh/frame_interpolation.h"
@@ -11,7 +11,7 @@ extern "C" {
 #include "macros.h"
 #include "functions.h"
 #include "variables.h"
-#include "textures/message_static/message_static.h"
+#include "assets/textures/message_static/message_static.h"
 extern PlayState* gPlayState;
 }
 

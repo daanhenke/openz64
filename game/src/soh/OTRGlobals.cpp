@@ -839,7 +839,7 @@ void CheckSoHOTRVersion(std::string otrPath) {
     if (otrVersion.major != gBuildVersionMajor || otrVersion.minor != gBuildVersionMinor || otrVersion.patch != gBuildVersionPatch) {
 #if not defined(__SWITCH__) && not defined(__WIIU__)
         Extractor::ShowErrorBox("soh.otr file version does not match", msg.c_str());
-        exit(1);
+        //exit(1);
 #elif defined(__SWITCH__)
         LUS::Switch::PrintErrorMessageToScreen(("\x1b[2;2HYou have an old soh.otr file." + msg).c_str());
 #elif defined(__WIIU__)
@@ -881,7 +881,7 @@ void DetectOTRVersion(std::string fileName, bool isMQ) {
             "You must regenerate to be able to play, otherwise the program will exit.\nWould you like to regenerate it now?",
             fileName.c_str(), version);
 
-        if (Extractor::ShowYesNoBox("Old OTR File Found", msgBuf) == IDYES) {
+        if (Extractor::ShowYesNoBox("Old OTR File Found", msgBuf) == IDYES || true) {
             std::string installPath = LUS::Context::GetAppBundlePath();
             if (!std::filesystem::exists(installPath + "/assets/extractor")) {
                 Extractor::ShowErrorBox("Extractor assets not found",

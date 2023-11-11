@@ -121,7 +121,7 @@ void OceffStorm_Update(Actor* thisx, PlayState* play) {
     this->actionFunc(this, play);
 }
 
-#include "overlays/ovl_Oceff_Storm/ovl_Oceff_Storm.h"
+#include "assets/overlays/ovl_Oceff_Storm/ovl_Oceff_Storm.h"
 
 void OceffStorm_Draw2(Actor* thisx, PlayState* play) {
     u32 scroll = play->state.frames & 0xFFF;

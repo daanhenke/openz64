@@ -1,5 +1,5 @@
 #include "z_efc_erupc.h"
-#include "objects/object_efc_erupc/object_efc_erupc.h"
+#include "assets/objects/object_efc_erupc/object_efc_erupc.h"
 #include "soh/frame_interpolation.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)

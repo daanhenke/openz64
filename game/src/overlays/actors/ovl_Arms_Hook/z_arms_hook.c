@@ -1,5 +1,5 @@
 #include "z_arms_hook.h"
-#include "objects/object_link_boy/object_link_boy.h"
+#include "assets/objects/object_link_boy/object_link_boy.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

@@ -1,13 +1,13 @@
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <string>
 
 extern "C" {
-#include <libultraship/libultra.h>
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/object_fz/object_fz.h"
-#include "objects/object_gi_soldout/object_gi_soldout.h"
-#include "objects/object_ik/object_ik.h"
-#include "objects/object_link_child/object_link_child.h"
+#include <libultra.h>
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/object_fz/object_fz.h"
+#include "assets/objects/object_gi_soldout/object_gi_soldout.h"
+#include "assets/objects/object_ik/object_ik.h"
+#include "assets/objects/object_link_child/object_link_child.h"
 
 uint32_t ResourceMgr_GameHasMasterQuest();
 uint32_t ResourceMgr_GameHasOriginal();

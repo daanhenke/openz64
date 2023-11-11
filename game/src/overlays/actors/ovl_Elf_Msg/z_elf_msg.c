@@ -169,7 +169,7 @@ void ElfMsg_Update(Actor* thisx, PlayState* play) {
 }
 
 #ifdef ZELDA_DEBUG
-#include "overlays/ovl_Elf_Msg/ovl_Elf_Msg.h"
+#include "assets/overlays/ovl_Elf_Msg/ovl_Elf_Msg.h"
 #endif
 
 void ElfMsg_Draw(Actor* thisx, PlayState* play) 

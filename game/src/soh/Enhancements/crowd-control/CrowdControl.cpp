@@ -2,7 +2,7 @@
 
 #include "CrowdControl.h"
 #include "CrowdControlTypes.h"
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <libultraship.h>
 #include <nlohmann/json.hpp>
 #include <spdlog/spdlog.h>

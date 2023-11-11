@@ -5,7 +5,7 @@
  */
 
 #include "z_en_ru1.h"
-#include "objects/object_ru1/object_ru1.h"
+#include "assets/objects/object_ru1/object_ru1.h"
 #include "vt.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_CAN_PRESS_SWITCH)

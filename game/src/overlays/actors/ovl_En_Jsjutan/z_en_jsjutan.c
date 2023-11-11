@@ -34,7 +34,7 @@ static Vec3s D_80A8EE10[0x90];
 
 static s32 sUnused[2] = { 0, 0 };
 
-#include "overlays/ovl_En_Jsjutan/ovl_En_Jsjutan.h"
+#include "assets/overlays/ovl_En_Jsjutan/ovl_En_Jsjutan.h"
 
 void EnJsjutan_Init(Actor* thisx, PlayState* play) {
     EnJsjutan* this = (EnJsjutan*)thisx;

@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_spot02_objects.h"
-#include "objects/object_spot02_objects/object_spot02_objects.h"
+#include "assets/objects/object_spot02_objects/object_spot02_objects.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

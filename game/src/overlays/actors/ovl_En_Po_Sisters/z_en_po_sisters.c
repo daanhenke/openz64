@@ -5,8 +5,8 @@
  */
 
 #include "z_en_po_sisters.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
-#include "objects/object_po_sisters/object_po_sisters.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/object_po_sisters/object_po_sisters.h"
 #include "soh/frame_interpolation.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 

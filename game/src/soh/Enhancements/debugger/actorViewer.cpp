@@ -9,7 +9,7 @@
 #include <bit>
 #include <map>
 #include <string>
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 #include <libultraship.h>
 
 extern "C" {
@@ -20,8 +20,8 @@ extern "C" {
 #include "macros.h"
 extern PlayState* gPlayState;
 
-#include "textures/icon_item_static/icon_item_static.h"
-#include "textures/icon_item_24_static/icon_item_24_static.h"
+#include "assets/textures/icon_item_static/icon_item_static.h"
+#include "assets/textures/icon_item_24_static/icon_item_24_static.h"
 }
 
 #define DEBUG_ACTOR_NAMETAG_TAG "debug_actor_viewer"

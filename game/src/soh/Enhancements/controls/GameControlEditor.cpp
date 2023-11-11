@@ -7,10 +7,10 @@
 #include <iterator>
 #include <variables.h>
 
-#include <ImGui/imgui.h>
-#include <ImGui/imgui_internal.h>
-#include <libultraship/bridge.h>
-#include <libultraship/libultra/controller.h>
+#include <imgui.h>
+#include <imgui_internal.h>
+#include <libultra/bridge.h>
+#include <libultra/controller.h>
 #include <Utils/StringHelper.h>
 #include <libultraship.h>
 

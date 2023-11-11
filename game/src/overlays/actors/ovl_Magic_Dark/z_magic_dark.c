@@ -5,7 +5,7 @@
  */
 
 #include "z_magic_dark.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_NO_FREEZE_OCARINA)
 
@@ -31,7 +31,7 @@ const ActorInit Magic_Dark_InitVars = {
     NULL,
 };
 
-#include "overlays/ovl_Magic_Dark/ovl_Magic_Dark.h"
+#include "assets/overlays/ovl_Magic_Dark/ovl_Magic_Dark.h"
 
 // unused
 static Color_RGBA8 D_80B88B10[] = { { 50, 100, 150, 200 }, { 255, 200, 150, 100 } };

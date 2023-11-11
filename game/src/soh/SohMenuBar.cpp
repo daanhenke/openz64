@@ -105,7 +105,7 @@ namespace SohGui {
 void DrawMenuBarIcon() {
     static bool gameIconLoaded = false;
     if (!gameIconLoaded) {
-        LUS::Context::GetInstance()->GetWindow()->GetGui()->LoadTexture("Game_Icon", "textures/icons/gIcon.png");
+        LUS::Context::GetInstance()->GetWindow()->GetGui()->LoadTexture("Game_Icon", "assets/textures/icons/gIcon.png");
         gameIconLoaded = true;
     }
 

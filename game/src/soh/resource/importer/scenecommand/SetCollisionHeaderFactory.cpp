@@ -1,6 +1,6 @@
 #include "soh/resource/importer/scenecommand/SetCollisionHeaderFactory.h"
 #include "soh/resource/type/scenecommand/SetCollisionHeader.h"
-#include "libultraship/libultraship.h"
+#include "libultraship.h"
 #include "spdlog/spdlog.h"
 
 namespace LUS {

@@ -5,7 +5,7 @@
  */
 
 #include "z_en_kz.h"
-#include "objects/object_kz/object_kz.h"
+#include "assets/objects/object_kz/object_kz.h"
 #include "soh/Enhancements/randomizer/adult_trade_shuffle.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY)

@@ -10,7 +10,7 @@ GameInteractor functions can be called directly.
 */
 
 #include "GameInteractor.h"
-#include <libultraship/bridge.h>
+#include <libultra/bridge.h>
 
 extern "C" {
 #include "variables.h"

@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_jya_bigmirror.h"
-#include "objects/object_jya_obj/object_jya_obj.h"
+#include "assets/objects/object_jya_obj/object_jya_obj.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

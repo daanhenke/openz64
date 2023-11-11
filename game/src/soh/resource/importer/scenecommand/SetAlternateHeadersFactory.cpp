@@ -1,7 +1,7 @@
 #include "soh/resource/importer/scenecommand/SetAlternateHeadersFactory.h"
 #include "soh/resource/type/scenecommand/SetAlternateHeaders.h"
 #include "spdlog/spdlog.h"
-#include "libultraship/libultraship.h"
+#include "libultraship.h"
 
 namespace LUS {
 std::shared_ptr<IResource> SetAlternateHeadersFactory::ReadResource(std::shared_ptr<ResourceInitData> initData,

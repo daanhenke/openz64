@@ -5,7 +5,7 @@
  */
 
 #include "z_en_dns.h"
-#include "objects/object_shopnuts/object_shopnuts.h"
+#include "assets/objects/object_shopnuts/object_shopnuts.h"
 #include "vt.h"
 #include "soh/Enhancements/game-interactor/GameInteractor_Hooks.h"
 

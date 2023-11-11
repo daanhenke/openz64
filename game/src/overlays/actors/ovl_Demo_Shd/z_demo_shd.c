@@ -28,7 +28,7 @@ const ActorInit Demo_Shd_InitVars = {
     NULL,
 };
 
-#include "overlays/ovl_Demo_Shd/ovl_Demo_Shd.h"
+#include "assets/overlays/ovl_Demo_Shd/ovl_Demo_Shd.h"
 
 void DemoShd_SetupAction(DemoShd* this, DemoShdActionFunc actionFunc) {
     this->actionFunc = actionFunc;

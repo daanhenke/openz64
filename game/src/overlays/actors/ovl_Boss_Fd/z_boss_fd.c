@@ -5,13 +5,13 @@
  */
 
 #include "z_boss_fd.h"
-#include "textures/boss_title_cards/object_fd.h"
-#include "objects/object_fd/object_fd.h"
+#include "assets/textures/boss_title_cards/object_fd.h"
+#include "assets/objects/object_fd/object_fd.h"
 #include "overlays/actors/ovl_En_Vb_Ball/z_en_vb_ball.h"
 #include "overlays/actors/ovl_Bg_Vb_Sima/z_bg_vb_sima.h"
 #include "overlays/actors/ovl_Boss_Fd2/z_boss_fd2.h"
 #include "overlays/actors/ovl_Door_Warp1/z_door_warp1.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
 
 #include "soh/frame_interpolation.h"
 

@@ -6,7 +6,7 @@
 
 #include "z_en_hs.h"
 #include "vt.h"
-#include "objects/object_hs/object_hs.h"
+#include "assets/objects/object_hs/object_hs.h"
 #include "soh/Enhancements/randomizer/adult_trade_shuffle.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY)

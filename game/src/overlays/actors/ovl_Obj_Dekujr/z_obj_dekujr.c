@@ -5,7 +5,7 @@
  */
 
 #include "z_obj_dekujr.h"
-#include "objects/object_dekujr/object_dekujr.h"
+#include "assets/objects/object_dekujr/object_dekujr.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY)
 

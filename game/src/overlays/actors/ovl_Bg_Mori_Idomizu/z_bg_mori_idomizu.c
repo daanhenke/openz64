@@ -5,7 +5,7 @@
  */
 
 #include "z_bg_mori_idomizu.h"
-#include "objects/object_mori_objects/object_mori_objects.h"
+#include "assets/objects/object_mori_objects/object_mori_objects.h"
 
 #define FLAGS (ACTOR_FLAG_UPDATE_WHILE_CULLED | ACTOR_FLAG_DRAW_WHILE_CULLED)
 

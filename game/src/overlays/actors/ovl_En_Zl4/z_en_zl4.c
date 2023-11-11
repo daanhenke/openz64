@@ -5,8 +5,8 @@
  */
 
 #include "z_en_zl4.h"
-#include "objects/object_zl4/object_zl4.h"
-#include "scenes/indoors/nakaniwa/nakaniwa_scene.h"
+#include "assets/objects/object_zl4/object_zl4.h"
+#include "assets/scenes/indoors/nakaniwa/nakaniwa_scene.h"
 
 #define FLAGS (ACTOR_FLAG_TARGETABLE | ACTOR_FLAG_FRIENDLY | ACTOR_FLAG_UPDATE_WHILE_CULLED)
 

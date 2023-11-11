@@ -8,10 +8,10 @@
 
 #include <string.h>
 
-#include "textures/boss_title_cards/object_bv.h"
-#include "objects/object_bv/object_bv.h"
+#include "assets/textures/boss_title_cards/object_bv.h"
+#include "assets/objects/object_bv/object_bv.h"
 #include "overlays/actors/ovl_En_Boom/z_en_boom.h"
-#include "objects/gameplay_keep/gameplay_keep.h"
+#include "assets/objects/gameplay_keep/gameplay_keep.h"
 #include "overlays/actors/ovl_Door_Warp1/z_door_warp1.h"
 
 #include "soh/frame_interpolation.h"

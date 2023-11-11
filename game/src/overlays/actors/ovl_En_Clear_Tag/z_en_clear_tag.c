@@ -87,7 +87,7 @@ static ColliderCylinderInit sLaserCylinderInit = {
 
 EnClearTagEffect sClearTagEffects[CLEAR_TAG_EFFECT_MAX_COUNT];
 
-#include "overlays/ovl_En_Clear_Tag/ovl_En_Clear_Tag.h"
+#include "assets/overlays/ovl_En_Clear_Tag/ovl_En_Clear_Tag.h"
 
 /**
  * Creates a debris effect.
