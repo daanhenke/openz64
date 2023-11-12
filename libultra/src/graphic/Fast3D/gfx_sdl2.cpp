@@ -337,7 +337,7 @@ static void gfx_sdl_init(const char* game_name, const char* gfx_api_name, bool s
     height = window_height;
 #endif
 
-    Uint32 flags = SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE | SDL_WINDOW_ALLOW_HIGHDPI;
+    Uint32 flags = SDL_WINDOW_SHOWN | SDL_WINDOW_FULLSCREEN | SDL_WINDOW_ALLOW_HIGHDPI;
 
     if (use_opengl) {
         flags = flags | SDL_WINDOW_OPENGL;

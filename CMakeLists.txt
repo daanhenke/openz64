@@ -25,10 +25,10 @@ add_subdirectory("libraries")
 include("${OZ64_CMAKE_PATH}/target/libultra.cmake")
 include("${OZ64_CMAKE_PATH}/target/openz64.cmake")
 
-add_custom_command(
-    TARGET openz64
-    POST_BUILD
-    COMMENT "Copying assets"
-    COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/assets $<TARGET_FILE_DIR:openz64>/assets
-)
+#add_custom_command(
+#    TARGET openz64
+#    POST_BUILD
+#    COMMENT "Copying assets"
+#    COMMAND ${CMAKE_COMMAND} -E copy_directory ${CMAKE_SOURCE_DIR}/assets $<TARGET_FILE_DIR:openz64>/assets
+#)
 openz64_platform_customize_targets()

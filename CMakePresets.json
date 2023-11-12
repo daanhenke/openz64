@@ -28,6 +28,14 @@
         }
       },
       {
+        "name": "windows-release",
+        "inherits": "windows",
+        "displayName": "Windows x64 Release",
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Release"
+        }
+      },
+      {
         "name": "emscripten",
         "inherits": "base",
         "displayName": "Emscripten",
