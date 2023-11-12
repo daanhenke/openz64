@@ -1,0 +1,5 @@
+function(openz64_platform_customize_targets)
+    if(COMMAND openz64_platform_customize_targets_impl)
+        openz64_platform_customize_targets_impl()
+    endif()
+endfunction()

@@ -1,0 +1,14 @@
+services:
+  emscripten:
+    image: emscripten/emsdk
+    working_dir: /source
+    volumes:
+      - ../:/source
+    command:
+      - sh
+      - -eac
+      - |
+        apt-get update
+        apt-get install pkg-config
+        cmake --preset emscripten .
+        sleep 2000
