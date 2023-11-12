@@ -836,7 +836,7 @@ void CheckSoHOTRVersion(std::string otrPath) {
 
     OTRVersion otrVersion = ReadPortVersionFromOTR(otrPath);
 
-    if (otrVersion.major != gBuildVersionMajor || otrVersion.minor != gBuildVersionMinor || otrVersion.patch != gBuildVersionPatch) {
+    if (otrVersion.major != 8 || otrVersion.minor != 0) {
 #if not defined(__SWITCH__) && not defined(__WIIU__)
         Extractor::ShowErrorBox("soh.otr file version does not match", msg.c_str());
         //exit(1);
@@ -861,7 +861,7 @@ void DetectOTRVersion(std::string fileName, bool isMQ) {
 
     OTRVersion otrVersion = ReadPortVersionFromOTR(otrPath);
 
-    if (otrVersion.major != gBuildVersionMajor) {
+    if (otrVersion.major != 8) {
         isOtrOld = true;
     }
 
@@ -2073,8 +2073,7 @@ extern "C" float OTRGetDimensionFromRightEdge(float v) {
     return (SCREEN_WIDTH / 2 + SCREEN_HEIGHT / 2 * OTRGetAspectRatio() - (SCREEN_WIDTH - v));
 }
 
-f32 floorf(f32 x);
-f32 ceilf(f32 x);
+
 
 extern "C" int16_t OTRGetRectDimensionFromLeftEdge(float v) {
     return ((int)floorf(OTRGetDimensionFromLeftEdge(v)));

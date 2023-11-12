@@ -1,5 +1,5 @@
 {
-    "version": 4,
+    "version": 3,
     "configurePresets": [
         {
             "name": "base",
@@ -7,20 +7,35 @@
             "hidden": true,
             "cacheVariables": {
               "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/install/${presetName}"
-            }
-        },
-        {
-          "name": "windows",
-          "inherits": "base",
-          "displayName": "Windows x64 Debug",
-          "architecture": {
-            "value": "x64",
-            "strategy": "external"
-          },
-          "cacheVariables": {
-            "CMAKE_BUILD_TYPE": "Debug",
-            "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/external/vcpkg/scripts/buildsystems/vcpkg.cmake"
+            },
+          "environment": {
+            "CMAKE_BUILD_PARALLEL_LEVEL": "20"
           }
+        },
+      {
+        "name": "windows",
+        "inherits": "base",
+        "displayName": "Windows x64 Debug",
+        "generator": "Ninja",
+        "architecture": {
+          "value": "x64",
+          "strategy": "external"
+        },
+        "cacheVariables": {
+          "CMAKE_BUILD_TYPE": "Debug",
+          "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/external/vcpkg/scripts/buildsystems/vcpkg.cmake",
+          "VCPKG_TARGET_TRIPLET": "x64-windows-static"
+        }
+      },
+      {
+        "name": "emscripten",
+        "inherits": "base",
+        "displayName": "Emscripten",
+        "cacheVariables": {
+          "CMAKE_TOOLCHAIN_FILE": "${sourceDir}/external/vcpkg/scripts/buildsystems/vcpkg.cmake",
+          "VCPKG_TARGET_TRIPLET": "wasm32-emscripten",
+          "VCPKG_CHAINLOAD_TOOLCHAIN_FILE": "/emsdk/upstream/emscripten/cmake/Modules/Platform/Emscripten.cmake"
+        }
       },
       {
         "name": "linux",

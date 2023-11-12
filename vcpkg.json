@@ -6,6 +6,8 @@
       "sdl2",
       "zlib",
       "bzip2",
-      "glew"
+      "glew",
+      "boost-container-hash",
+      "boost-random"
     ]
   }

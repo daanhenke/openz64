@@ -279,6 +279,7 @@ set(OPENZ64_SOURCES
     soh/Enhancements/randomizer/3drando/location_access/locacc_water_temple.cpp
     soh/Enhancements/randomizer/3drando/location_access/locacc_zoras_domain.cpp
 
+    soh/Enhancements/speechsynthesizer/SpeechSynthesizer.cpp
     soh/Enhancements/tts/tts.cpp
 
     soh/Extractor/Extract.cpp
@@ -386,5 +387,5 @@ target_include_directories(openz64
 )
 target_link_libraries(openz64
     PUBLIC libultra
-    PRIVATE DrLibs
+    PRIVATE DrLibs imm32
 )
